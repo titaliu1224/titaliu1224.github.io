@@ -1,6 +1,6 @@
 ---
 title: 第一個測試文章喔
-date: 2022-04-20 12:09:00 +0800
+date: 2022-04-20 00:09:00 +0800
 
 tags: 
     - blog-test
@@ -17,5 +17,12 @@ tags:
 **我會變粗體嗎**
 ~~我刪除線啦哈~~
 ```cpp
-    cout << "hello world" << endl; // 你好啊世界
+    #include <iostream>
+
+    using namespace std;
+    
+    int main(){
+        cout << "hello world" << endl; // 你好啊世界
+        return 0;
+    }
 ```
