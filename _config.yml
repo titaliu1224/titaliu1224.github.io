@@ -1,7 +1,8 @@
 # The Site Configuration
 
 # Import the theme
-theme: jekyll-theme-chirpy
+# theme: jekyll-theme-chirpy
+remote_theme: "tiffanyliu1224/tiffanyliu1224.github.io@main"
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
@@ -44,7 +45,7 @@ social:
   email: tiffanyliu1224@gmail.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
+    # - https://twitter.com/username      # change to your twitter homepage
     - https://github.com/tiffanyliu1224     # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
