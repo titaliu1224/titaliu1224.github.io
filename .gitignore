@@ -15,3 +15,6 @@ vendor
 # npm dependencies
 node_modules
 package-lock.json
+
+# 測試文章
+_posts/2022-04-20-my_first_article.md
