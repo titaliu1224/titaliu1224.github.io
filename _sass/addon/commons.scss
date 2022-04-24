@@ -33,7 +33,7 @@ body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: 'TaipeiSans', sans-serif;
+  font-family: $font-main;
 }
 
 /* --- Typography --- */
@@ -41,7 +41,6 @@ body {
 h1 {
   @extend %heading;
 
-  font-family: 'TaipeiSans-Bold', 'TaipeiSans', sans-serif; //custom
   font-size: 1.9rem;
 }
 
@@ -1045,7 +1044,7 @@ $sidebar-display: "sidebar-display";
   display: none;
   font-size: 1.1rem;
   font-weight: 600;
-  font-family: "TaipeiSans-Bold", sans-serif;
+  font-family: $font-bold;
   color: var(--topbar-text-color);
   text-align: center;
   width: 70%;

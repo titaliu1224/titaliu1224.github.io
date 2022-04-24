@@ -1,15 +1,17 @@
 /*
   Appending custom SCSS variables will override the default ones in `_sass/addon/variables.scsss`
 */
-// custom font family
+
+/* custom font family */
+
 @font-face {
   font-family: 'TaipeiSans';
-  src: local("TaipeiSansTCBeta-Regular.ttf") format("truetype");
+  src: url("../../TaipeiSansTCBeta-Light.ttf") format("truetype");
 }
 $font-main: 'TaipeiSans', sans-serif;
 
 @font-face{
   font-family: 'TaipeiSans-Bold';
-  src: local("TaipeiSansTCBeta-Bold.ttf") format("truetype"),
-       local("TaipeiSansTCBeta-Regular.ttf") format("truetype");
+  src: url("../../TaipeiSansTCBeta-Bold.ttf") format("truetype");
 }
+$font-bold: 'TaipeiSans-Bold', sans-serif;
