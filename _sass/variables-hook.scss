@@ -6,12 +6,14 @@
 
 @font-face {
   font-family: 'TaipeiSans';
-  src: url("../../TaipeiSansTCBeta-Light.ttf") format("truetype");
+  src: url("../../TaipeiSansTCBeta-Light.woff") format("woff"),
+    // url("../../TaipeiSansTCBeta-Light.ttf") format("truetype");
 }
 $font-main: 'TaipeiSans', sans-serif;
 
 @font-face{
   font-family: 'TaipeiSans-Bold';
-  src: url("../../TaipeiSansTCBeta-Bold.ttf") format("truetype");
+  src: url("../../TaipeiSansTCBeta-Bold.woff") format("woff"),
+    // url("../../TaipeiSansTCBeta-Bold.ttf") format("truetype");
 }
 $font-bold: 'TaipeiSans-Bold', sans-serif;
