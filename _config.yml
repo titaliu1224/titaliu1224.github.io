@@ -103,11 +103,11 @@ comments:
   giscus:
     repo: titaliu1224/giscus_for_my_blog    # <gh-username>/<repo>
     repo_id: 518127330    
-    category:
-    category_id:
+    category: Announcements
+    category_id: DIC_kwDOHuH-4s4CQcno
     mapping:          # optional, default to 'pathname'
-    input_position:   # optional, default to 'bottom'
-    lang:             # optional, default to the value of `site.lang`
+    input_position: top  # optional, default to 'bottom'
+    lang: zh-TW         # optional, default to the value of `site.lang`
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
