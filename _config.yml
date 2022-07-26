@@ -102,7 +102,7 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: titaliu1224/giscus_for_my_blog    # <gh-username>/<repo>
-    repo_id: 518127330    
+    repo_id: R_kgDOHuH-4g   
     category: Announcements
     category_id: DIC_kwDOHuH-4s4CQcno
     mapping:          # optional, default to 'pathname'
