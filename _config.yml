@@ -101,8 +101,8 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: titaliu1224/titaliu1224.github.io    # <gh-username>/<repo>
-    repo_id: 483315600    
+    repo: titaliu1224/giscus_for_my_blog    # <gh-username>/<repo>
+    repo_id: 518127330    
     category:
     category_id:
     mapping:          # optional, default to 'pathname'
