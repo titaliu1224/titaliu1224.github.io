@@ -101,10 +101,10 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: titaliu1224/giscus_for_my_blog    # <gh-username>/<repo>
-    repo_id: R_kgDOHuH-4g   
+    repo: titaliu1224/titaliu1224.github.io    # <gh-username>/<repo>
+    repo_id: R_kgDOHM7PkA   
     category: Announcements
-    category_id: DIC_kwDOHuH-4s4CQcno
+    category_id: DIC_kwDOHM7PkM4CQclO
     mapping:          # optional, default to 'pathname'
     input_position: top  # optional, default to 'bottom'
     lang: zh-TW         # optional, default to the value of `site.lang`
