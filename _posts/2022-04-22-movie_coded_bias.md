@@ -27,7 +27,9 @@ mermaid: true
 我覺得他的翻譯更適合叫做「偏見編碼」，不過 code 不論翻成編碼還是編程我都覺得怪怪的就是了。
 <br><br>
 這是他的預告片（trailer 的中文是這個嗎？），可以打開 cc 字幕協助觀看:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jZl55PsfZJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="position:relative; width:100%; height:0px; padding-bottom:56.25%;">
+    <iframe style="position:absolute; left:0; top:0; width:100%; height:100%" src="https://www.youtube.com/embed/jZl55PsfZJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 簡單來說，一名正就讀 MIT 的黑人女性偶然發現她的 AI 無法識別她的臉，直到她戴上了一副白色面具，功能才正常運作。<br>
 她想，是不是燈光不對、角度不對抑或是眼睛沒看著鏡頭呢？<br>
