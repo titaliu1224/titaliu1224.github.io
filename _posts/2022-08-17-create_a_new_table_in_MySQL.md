@@ -5,6 +5,7 @@ date: 2022-08-17 03:22:00 +0800
 tags: 
     - database
     - MySQL
+    - web
 
 categories: [資料庫學習日誌]
 
@@ -19,8 +20,8 @@ img_path: ../../assets/img/posts/
 
 ## 事前準備
 1. 已建立好非 root 帳號
-2. 使用該帳號登入用戶端文字介面mysql，指令；`mysql -u <user> -p`
-3. 我使用指令 `prompt MySQL [\d]>\_` 將我的命令輸入提示更改成 `MySQL [test]> `，其中 `\d` 為[預設資料庫](/posts/create_a_new_table_in_MySQL/#設定預設資料庫使不用每次都打上資料庫名稱)，`\_` 為空格，以下示範；
+2. 使用該帳號登入用戶端文字介面mysql，指令：`mysql -u <user> -p`
+3. 我使用指令 `prompt MySQL [\d]>\_` 將我的命令輸入提示更改成 `MySQL [test]> `，其中 `\d` 為[預設資料庫](/posts/create_a_new_table_in_MySQL/#設定預設資料庫使不用每次都打上資料庫名稱)，`\_` 為空格，以下示範：
 ```
 mysql> prompt MySQL [\d]>\_
 PROMPT set to 'MySQL [\d]>\_'
@@ -30,7 +31,7 @@ MySQL [(none)]>
 ## 資料庫操作 Lv. 1
 
 ### 查詢伺服器中的 database 們
-- 指令；`SHOW DATABESES;`
+- 指令：`SHOW DATABESES;`
 - 注意事項
   - 是 databas**es**，不是 database
   - 每句句尾都要加上分號
@@ -53,8 +54,8 @@ MySQL [(none)]>  show databases;
 ## SQL 指令 Lv. 1: 建立資料庫與資料表
 
 ### 建立一個 database
-- 指令； `CREATE DATABASE <name>;`
-- 注意事項；資料庫名稱通常是小寫
+- 指令： `CREATE DATABASE <name>;`
+- 注意事項：資料庫名稱通常是小寫
 
 ```
 MySQL [(none)]> create database test;
@@ -62,8 +63,8 @@ Query OK, 1 row affected (0.01 sec)
 ```
 
 ### 建立一個 table
-- 指令；`CREATE TABLE <database.table> (<欄位> <型別>, <欄位2> <型別2>, ...);`
-- 注意事項；[關於型別可以看這裡](https://dev.mysql.com/doc/refman/8.0/en/integer-types.html)
+- 指令：`CREATE TABLE <database.table> (<欄位> <型別>, <欄位2> <型別2>, ...);`
+- 注意事項：[關於型別可以看這裡](https://dev.mysql.com/doc/refman/8.0/en/integer-types.html)
 
 ```
 MySQL [(none)]> create table test.books (book_id INT, title TEXT, status INT);
@@ -71,9 +72,9 @@ Query OK, 0 rows affected (0.02 sec)
 ```
 
 ### 查看 database 中的 tables
-- 指令；`SHOW TABLES FROM <database>;`
-- 注意事項；無
-- 小心得；一個資料庫就像是一份 Google Sheet，裡面可以建立多個資料表，像是資料庫中的 table 一樣，而這一整個 server 就是包含多個 Google sheet 的資料夾（不說 Excel 是因為我沒用過 Excel，誰叫它要錢~）
+- 指令：`SHOW TABLES FROM <database>;`
+- 注意事項：無
+- 小心得：一個資料庫就像是一份 Google Sheet，裡面可以建立多個資料表，像是資料庫中的 table 一樣，而這一整個 server 就是包含多個 Google sheet 的資料夾（不說 Excel 是因為我沒用過 Excel，誰叫它要錢~）
 
 ```
 MySQL [(none)]> show tables from test;
@@ -85,8 +86,8 @@ MySQL [(none)]> show tables from test;
 ```
 
 ### 設定預設資料庫使不用每次都打上資料庫名稱
-- 指令；`USE <database>;`
-- 注意事項；若在 prompt 中有使用 `\d` 的話，這時 prompt 會產生變化
+- 指令：`USE <database>;`
+- 注意事項：若在 prompt 中有使用 `\d` 的話，這時 prompt 會產生變化
 
 ```
 MySQL [(none)]> use test
@@ -94,7 +95,7 @@ Database changed
 MySQL [test]> 
 ```
 
-如此一來便不需打上 table 名稱了；
+如此一來便不需打上 table 名稱了：
 ```
 MySQL [test]> show tables;
 +----------------+
@@ -106,8 +107,8 @@ MySQL [test]> show tables;
 ```
 
 ### 查看 tables 中的資料
-- 指令；`DESCIRBE <table>;`
-- 注意事項；我們還未放入任何資料
+- 指令：`DESCIRBE <table>;`
+- 注意事項：我們還未放入任何資料
 
 ```
 MySQL [test]> describe books;
@@ -124,7 +125,7 @@ MySQL [test]> describe books;
 ## SQL Lv. 2: 插入與處理資料
 
 ### 在 talbe 中插入資料
-- 指令；`INSERT INTO <table> VALUES(<data1>, <data2>, <data3>);`
+- 指令：`INSERT INTO <table> VALUES(<data1>, <data2>, <data3>);`
 - 注意事項
   - 大小寫與空格不影響指令的執行
   - 須按照創建時的欄位順序填寫值
@@ -135,8 +136,8 @@ Query OK, 1 row affected (0.01 sec)
 ```
 
 ### 一次插入多筆資料
-- 指令；`INSERT INTO <table> VALUES(<data1>, <data2>, <data3>), (<data4>, <data5>, <data6>);`
-- 注意事項；無
+- 指令：`INSERT INTO <table> VALUES(<data1>, <data2>, <data3>), (<data4>, <data5>, <data6>);`
+- 注意事項：無
 
 ```
 MySQL [test]> insert into books VALUES(101, 'Hello World is a mysterious spell', 1), (102, 'Mozambique Here', 0);
@@ -145,7 +146,7 @@ Query OK, 1 row affected (0.00 sec)
 
 
 ### 查看 table 中的資料
-- 指令；`SELECT * FROM <table>;`
+- 指令：`SELECT * FROM <table>;`
 - 注意事項
   - `*` 表示「全部、所有」，[關於正則表達式](https://docs.microsoft.com/zh-tw/sql/ssms/scripting/search-text-with-regular-expressions?view=sql-server-ver16)
   - - 將 `*` 改成欄位名稱即可顯示特定欄位
@@ -163,7 +164,7 @@ MySQL [test]> SELECT * FROM books;
 ```
 
 ### 篩選資料
-- 指令；`SELECT * FROM <table> WHERE <條件式>;`
+- 指令：`SELECT * FROM <table> WHERE <條件式>;`
 - 注意事項
   - 是 `=` 不是 `==`，[關於比較運算子](https://docs.microsoft.com/zh-tw/sql/t-sql/language-elements/comparison-operators-transact-sql?view=sql-server-ver16)
   - 假設這裡的 status 代表剩餘庫存與否
@@ -179,7 +180,7 @@ MySQL [test]> SELECT * FROM books WHERE status = 1;
 ```
 
 ### 以卡片方式顯示資料
-- 指令；句尾不使用 `;` 而是 `\G`
+- 指令：句尾不使用 `;` 而是 `\G`
 - 注意事項
   - 此方法當表格過長導致換行或排版跑掉時很好用
   - 若是小寫的 `\g`，行為會和 `;` 一樣
@@ -198,8 +199,8 @@ book_id: 102
 ```
 
 ### 修改資料
-- 指令；`UPDATE <table> SET <資料名稱> = <值> WHERE <條件式>;`
-- 注意事項；無
+- 指令：`UPDATE <table> SET <資料名稱> = <值> WHERE <條件式>;`
+- 注意事項：無
 
 ```
 MySQL [test]> UPDATE books SET title = 'A Server Made of Potato' WHERE book_id = 102;
@@ -208,8 +209,8 @@ Rows matched: 1  Changed: 1  Warnings: 0
 ```
 
 ### 一次修改兩筆資料
-- 指令；`UPDATE <table> SET <資料名稱> = <值>, <資料名稱2> = <值2> WHERE <條件式>;`
-- 注意事項；以空格隔開要修改的值
+- 指令：`UPDATE <table> SET <資料名稱> = <值>, <資料名稱2> = <值2> WHERE <條件式>;`
+- 注意事項：以空格隔開要修改的值
 
 ```
 MySQL [test]> UPDATE books SET title = 'The Secret of Hello World', status = 0 WHERE book_id
@@ -229,15 +230,15 @@ MySQL [test]> SELECT * FROM books;
 ```
 
 ### Character
-- 指令；`CHAR(<SIZE>)`
-- 注意事項；使用字元集來限制字串長度，使資料用起來更有效率，當資料一多的時候會顯示出差異
+- 指令：`CHAR(<SIZE>)`
+- 注意事項：使用字元集來限制字串長度，使資料用起來更有效率，當資料一多的時候會顯示出差異
   
 ```
 MySQL [test]> CREATE TABLE status_names (status_id INT, status_name CHAR(8));
 Query OK, 0 rows affected (0.01 sec)
 ```
 
-這裡順便插入資料使我們可以對照 `books`{: .filepath} 中的 `status`{: .filepath} 是什麼意思；
+這裡順便插入資料使我們可以對照 `books`{: .filepath} 中的 `status`{: .filepath} 是什麼意思：
 ```
 MySQL [test]> INSERT INTO status_names VALUES(0, 'Incative'), (1, 'Active');
 Query OK, 2 rows affected (0.00 sec)
@@ -254,9 +255,9 @@ MySQL [test]> SELECT * FROM status_names;
 ```
 
 ### 結合兩個 table
-- 指令； `<table1> JOIN <table2>`
+- 指令： `<table1> JOIN <table2>`
 - 注意事項
-  - 不用 `*` 來挑選欄位是因為會出現一些不需要的欄位（如；status, status_id）
+  - 不用 `*` 來挑選欄位是因為會出現一些不需要的欄位（如：status, status_id）
   - 使用 `JOIN` 就能一次選擇兩種 table 中的欄位
   - 在打上分號前不論怎麼換行都沒關係
   - 會在 `books`{: .filepath} 中使用 `status = 0 or 1` 是因為這樣可以讓資料比較簡潔也避免出錯（例如打錯英文字）
