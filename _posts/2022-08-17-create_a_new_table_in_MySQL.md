@@ -1,5 +1,5 @@
 ---
-title: "在 MySQL 資料庫中新建一個table"
+title: "在 MySQL 資料庫中新建一個 Table"
 date: 2022-08-17 03:22:00 +0800
 
 tags: 
