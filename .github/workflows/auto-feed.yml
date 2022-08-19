@@ -15,18 +15,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           url: "https://medium.com/feed/@TitaLiu"
           dir: _friends_link/
-          filename: TitaLiu
+          filename: TitaLiu.xml
+          
       - uses: wow-actions/download-upload@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           url: "https://medium.com/feed/@AmuAstra"
           dir: _friends_link/
-          filename: AmuAstra
+          filename: AmuAstra.xml
+          
       - uses: wow-actions/download-upload@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           url: "https://blog.ryankert.cc/atom.xml"
           dir: _friends_link/
-          filename: RyanKert
+          filename: RyanKert.xml
           
           
