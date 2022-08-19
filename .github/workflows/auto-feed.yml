@@ -1,4 +1,4 @@
-name: 'Automatic build'
+name: 'Automatic build for downloading feed'
 on:
   schedule: # Run workflow automatically
     - cron: '0/5 * * * *' # Runs every hour, on the hour
