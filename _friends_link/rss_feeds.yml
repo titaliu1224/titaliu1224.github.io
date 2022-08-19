@@ -1,6 +1,6 @@
 - name: Tita's Medium
   feed: ./_friends_link/TitaLiu.xml
 - name: Astra's Medium
-  feed: ./_friends_link/@AmuAstra.xml
+  feed: ./_friends_link/AmuAstra.xml
 - name: Ryan's blog
-  feed: ./_friends_link/ryan.xml
+  feed: ./_friends_link/RyanKert.xml
