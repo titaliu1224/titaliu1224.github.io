@@ -29,3 +29,4 @@ jobs:
         with:
           url: "https://blog.ryankert.cc/atom.xml"
           target: _friends_link/
+          
