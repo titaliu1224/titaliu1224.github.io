@@ -30,6 +30,8 @@ jobs:
           url: "https://blog.ryankert.cc/atom.xml"
           target: _friends_link/
           
+      - name: list all file to check where am I
+        run: ls -al
       - name: execute feeds.rb
         run: ruby feeds.rb
           
