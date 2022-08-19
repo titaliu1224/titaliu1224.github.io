@@ -1,0 +1,20 @@
+- uses: suisei-cn/actions-download-file@v1.0.1
+  id: TitaLiu
+  name: Download the file form Tita's Medium
+  with:
+    url: "https://medium.com/feed/@TitaLiu"
+    target: _friends_link/
+    
+- uses: suisei-cn/actions-download-file@v1.0.1
+  id: AmuAstra
+  name: Download the file from Amu Medium
+  with:
+    url: "https://medium.com/feed/@AmuAstra"
+    target: _friends_link/
+    
+- uses: suisei-cn/actions-download-file@v1.0.1
+  id: RyanKert
+  name: Download the file form Ryan's blog
+  with:
+    url: "https://blog.ryankert.cc/atom.xml"
+    target: _friends_link/
