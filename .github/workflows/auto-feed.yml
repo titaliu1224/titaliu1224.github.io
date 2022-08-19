@@ -30,3 +30,6 @@ jobs:
           url: "https://blog.ryankert.cc/atom.xml"
           target: _friends_link/
           
+      - name: execute feed.rb
+        run: ruby feed.rb
+          
