@@ -1,20 +1,31 @@
-- uses: suisei-cn/actions-download-file@v1.0.1
-  id: TitaLiu
-  name: Download the file form Tita's Medium
-  with:
-    url: "https://medium.com/feed/@TitaLiu"
-    target: _friends_link/
-    
-- uses: suisei-cn/actions-download-file@v1.0.1
-  id: AmuAstra
-  name: Download the file from Amu Medium
-  with:
-    url: "https://medium.com/feed/@AmuAstra"
-    target: _friends_link/
-    
-- uses: suisei-cn/actions-download-file@v1.0.1
-  id: RyanKert
-  name: Download the file form Ryan's blog
-  with:
-    url: "https://blog.ryankert.cc/atom.xml"
-    target: _friends_link/
+name: 'Automatic build'
+on:
+  schedule: # Run workflow automatically
+    - cron: '0 * * * *' # Runs every hour, on the hour
+  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
+
+jobs:
+  download-feed-file-automatically:
+    name: Update this feed files for friends
+    runs-on: ubuntu-latest
+    steps:
+      - uses: suisei-cn/actions-download-file@v1.0.1
+        id: TitaLiu
+        name: Download the file form Tita's Medium
+        with:
+          url: "https://medium.com/feed/@TitaLiu"
+          target: _friends_link/
+
+      - uses: suisei-cn/actions-download-file@v1.0.1
+        id: AmuAstra
+        name: Download the file from Amu Medium
+        with:
+          url: "https://medium.com/feed/@AmuAstra"
+          target: _friends_link/
+
+      - uses: suisei-cn/actions-download-file@v1.0.1
+        id: RyanKert
+        name: Download the file form Ryan's blog
+        with:
+          url: "https://blog.ryankert.cc/atom.xml"
+          target: _friends_link/
