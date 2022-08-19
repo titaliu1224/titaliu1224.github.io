@@ -1,7 +1,7 @@
 name: 'Automatic build for downloading feed'
 on:
   schedule: # Run workflow automatically
-    - cron: '40,45 * * * *' # Runs every hour, on the hour
+    - cron: '0 * * * *' # Runs every hour, on the hour
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
 
 jobs:
@@ -9,29 +9,24 @@ jobs:
     name: Update this feed files for friends
     runs-on: ubuntu-latest
     steps:
-      - uses: suisei-cn/actions-download-file@v1.0.1
-        id: TitaLiu
-        name: Download the file form Tita's Medium
+      - uses: actions/checkout@v3
+      - uses: wow-actions/download-upload@v1
         with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           url: "https://medium.com/feed/@TitaLiu"
-          target: _friends_link/
-
-      - uses: suisei-cn/actions-download-file@v1.0.1
-        id: AmuAstra
-        name: Download the file from Amu Medium
+          dir: _friends_link/
+          filename: TitaLiu
+      - uses: wow-actions/download-upload@v1
         with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           url: "https://medium.com/feed/@AmuAstra"
-          target: _friends_link/
-
-      - uses: suisei-cn/actions-download-file@v1.0.1
-        id: RyanKert
-        name: Download the file form Ryan's blog
+          dir: _friends_link/
+          filename: AmuAstra
+      - uses: wow-actions/download-upload@v1
         with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           url: "https://blog.ryankert.cc/atom.xml"
-          target: _friends_link/
+          dir: _friends_link/
+          filename: RyanKert
           
-      - name: list all file to check where am I
-        run: ls -al
-      - name: execute feeds.rb
-        run: ruby feeds.rb
           
