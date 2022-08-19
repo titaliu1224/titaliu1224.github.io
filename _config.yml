@@ -136,6 +136,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  friends_link:
+    people: true
+
 
 defaults:
   - scope:

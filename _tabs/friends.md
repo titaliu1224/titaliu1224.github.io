@@ -1,7 +1,6 @@
 ---
+layout: friends
 title: Friends
-icon: fas fa-info-circle
+icon: fas fa-user
 order: 6
 ---
-
-test

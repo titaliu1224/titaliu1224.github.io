@@ -23,3 +23,9 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # Jekyll <= 4.2.0 compatibility with Ruby 3.0
 gem "webrick", "~> 1.7"
+
+# for importer
+gem 'feed-normalizer', '~> 1.5', '>= 1.5.2'
+gem 'to_slug', '~> 1.0', '>= 1.0.8'
+gem 'yaml', '~> 0.2.0'
+gem 'sanitize', '~> 6.0'
