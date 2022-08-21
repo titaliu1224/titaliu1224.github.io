@@ -13,10 +13,10 @@
         window._cf_chl_opt={
             cvId: '2',
             cType: 'non-interactive',
-            cNounce: '82519',
-            cRay: '73e50bfe5c0a9c70',
-            cHash: 'd7d831588d52a89',
-            cUPMDTk: "\/feed\/@AmuAstra?__cf_chl_tk=4g0T3otNZkQa6h5NE0V8ZL_w0WX5bttHrBwDZzBX0wU-1661102504-0-gaNycGzNByU",
+            cNounce: '97628',
+            cRay: '73e56b005ba88003',
+            cHash: 'c9dd5512010e02c',
+            cUPMDTk: "\/feed\/@AmuAstra?__cf_chl_tk=BnQZwBWpm9AgmAdZiin51YFr918Oy7rJBIK69k7tE9Y-1661106396-0-gaNycGzNByU",
             cFPWv: 'g',
             cTTimeMs: '1000',
             cTplV: 3,
@@ -24,11 +24,11 @@
                 ru: 'aHR0cHM6Ly9tZWRpdW0uY29tL2ZlZWQvQEFtdUFzdHJh',
                 ra: 'bm9kZS1mZXRjaC8xLjAgKCtodHRwczovL2dpdGh1Yi5jb20vYml0aW5uL25vZGUtZmV0Y2gp',
                 rm: 'R0VU',
-                d: 'Ewg+yK1YORNeDx4GhMgECfcy0Spja1/VMDp97yuJH9GQe4zJXWinfNwpPWjqfFM6Dp3GAfh168yncqWLoqKGuf+34Jk5kLLMHMNriCnyEHisSd1gqlaw4Ef2IMkMaj41OEiGcnJBNBbzDq9TnWjxqxCYLcrsnNjWuDbyZNpcIwRtsbDKYQJSMRErB/dYKzUMRjD1P9h6AicXVTJZzxZkXYRasz2dFFTENn4A/fT85VDdunz7Q3ezSrhtYMpmQZa41mojtWCRM6fFxA7YK+clc0GDJhr1SOLzxO0vZJlE+iZQPvymICsQbnx5wi69kCjq+K7LwmSP1BwN4IF4lb+sslF4+/nzILxiMoQZSYzOulNgaGhs29aZ0lkyjio4hjGWtAiFacY4XPwp95xvQ5NO6tygyTYGrw4nx0VS8qTs3SjwIzEUnJvFqeRJcuKUL/FR7hhiE01brr4or8Ky2yfg5OkI89LTVy8qVZkC9WDedfdsczkoBNzO0uf6ES9z8NYhRBINXnEOEDZsCa3HhqPrSEOkT5MSgjNH514upMqvm11aG2w9925ArfWSMuQTu/zlbfEe6Z2XMSGhMBOYHpXi4g==',
-                t: 'MTY2MTEwMjUwNC43MDEwMDA=',
-                m: 'XFwh4PQNviWRYwbPGRtDjgycvn0oPW5krYzXtfpkxjk=',
-                i1: '3Mp2W2UJWJ2GyDlcjvaFQg==',
-                i2: 'XXCGoBwtmTXfKJYOkLyZtg==',
+                d: 'B0G2TTf9XfXd9NTsMDdlmT9t7VXwRS1i2/NeYihR70dUv5+lcGv/+wuqwiH6gCsYcs9uNH00BixCJIy32LFHfRxDJImB+wUK7niBy7ZPpZfjrLaU99p+OY5b05gSil3riX6A5gyw2xOadjR70BsPI3hDQfkpcXJBJkTY5IgM0EbAqHXf9kyijtb/8Ph5Z56fz7uhCG90kr3AH3SDnB2ILt9u1a08HcyFg5Nuql3QZ3NJS96KiIjfPGr4NlI4ssnID8dTnEHZKdSRbNbatvIAhE6+/Jt/U7YAJN/La1alu9HGRTKI/qO38WjKP4bK2VJko9YU1JFUlEcSGtamjSoAMaih+yWPsIaWlsxhYK8CeBdNqg2XEAy96Y3mM4Uj4n9MRUCihnldHa0ovbtgiH70krvevl0PBm0KQquu/3Daen+wVRXJlU4MNDDpyNebbQf71FqP77hnmL2QN4E/Ez79cYqACKP2qcvbZL++rNg561Uo3QhjAFLeeZlfZw74YcItpYVyhexqr/Ro6uFrjyV+cD0TqbGt1KbuXctSTz1QbeaDy8aLeLcsRcrFdVkW+HlwgXMZaDUX6G4vkKuA0gzEgg==',
+                t: 'MTY2MTEwNjM5Ni4yMzMwMDA=',
+                m: 'TKhrEFQlCfxqz9nsFO29fGbM2Lpi1j7d5NYKAgH8qU4=',
+                i1: 'DmEI0/q5otKJvkerFeKrcg==',
+                i2: 'keKxiRw0JF5FH3K6yZeMKA==',
                 zh: 'Ycgpu9r177LxjbQGFsmz/e0ei9K/7m7t1CDoKCYIB7I=',
                 uh: 'o3n6xEt35XQSPgkMHltSudNiWY3D18ZEWvIVxqHkP+4=',
                 hh: 'YvLLNAANQRqbdRleAht8yWR4w9yWVhTbCiWB1al3UhY=',
@@ -62,30 +62,30 @@
                 </div>
             </div>
         </noscript>
-        <div id="trk_jschal_js" style="display:none;background-image:url('/cdn-cgi/images/trace/jsch/nojs/transparent.gif?ray=73e50bfe5c0a9c70')"></div>
+        <div id="trk_jschal_js" style="display:none;background-image:url('/cdn-cgi/images/trace/jsch/nojs/transparent.gif?ray=73e56b005ba88003')"></div>
         <div id="cf-challenge-body-text" class="core-msg spacer">
             medium.com needs to review the security of your connection before
             proceeding.
         </div>
-        <form id="challenge-form" action="/feed/@AmuAstra?__cf_chl_f_tk=4g0T3otNZkQa6h5NE0V8ZL_w0WX5bttHrBwDZzBX0wU-1661102504-0-gaNycGzNByU" method="POST" enctype="application/x-www-form-urlencoded">
-            <input type="hidden" name="md" value="Jb9SpJmDUlIicvoquffR7iivSHgYIk.7_u2wO2_OxGU-1661102504-0-Ae5nqev53hGs_PIbNZKbH3YxzzrUMkIGMmKFOVj-atf4EJtFWkJYDUYhUP91x8Lb-IoT_bnQam8XbVdXwW3AShE9OCGhenfhaHYiW-muKFwnp7Npi7QEqDX-6qTUwc3qJQaiX5MY0jHEPKkMep1yxeTehQhpNh0DRRP9iiV6BECBXIsz7H5pqMzL2JmbUf-srjMrHtcQKRK87Nhw4QCqK7azMIlR3LVk8x0A_AkrA4fZIDK7VA2AuV1TLMUQHBZ-s2aZzDDWwFW__6dyLiecAJU_Khoz2zLwfr6uaHYgMD2WgLGBgOq7n_Tdbr1Vz9Emh1CV_1NId_nm4sEuKYYmz8tgRYYicJExmrWwNC1FsFhPusbTMFRD-aOWt2G15znUvcxhpTdkfp1Pa8efKeOyk2M81gptXkKee5AFr-syUDZ6VIMDYwflt6H8YfA87evBFCTPyN4KJzY-2Jn4Tc7N8a0Pn5rP73JeNidWC7f56qBqpyKc-u7U9O02QPTtQeUwAwYw2k4zR9r_sC4JUtzyiX_HsCunq3gHbwgjHGDUnC8zneLjtJ-vKQdqDwul9J0AA7NEpBmBq52RncrdH4F9EMTcnERuB8M8yZVAG5_Xwpg-IZFL8_aP0m1Jnq1z0H3xIw" />
-            <input type="hidden" name="r" value="qpmcbSilWtQhO.pYYfN6yBLX4meAwUXzhWPw2Ltr468-1661102504-0-AbHb6V+AuVQvEHcbYNl09qI4ve1cu1slDs/wq7vZ4V26fPqqhBV57VEWCKAyjno+Dra4egdMhFbyEINKIIp74B1Zo1xYkw7/PavlhzxUSC0OZ2CrJWvqvj21rMInnyAsFONlNdpH/eknMCNJuFttrb2qKpyvEaj7GTdDa2laqv6LnZTaQ+EHjR/njUsaMgL+I4J32heydy1Oel+iRMnNkASSFtfPsNPnTGf2a4tHJpydLP0VtKSeeeFCHgQjPhnRLj6gPyCCsEnd06fCVEPlEZy8tSUkdO/OB8RMGXFaUDdGv3UntANyqOIHx2g0tDCpuLGzqQVGVpukI/c2EEHh+yo8eZCyWOjfOPr8vVwFz0QEWvBfbsFImiwEqM9AAd6I1FW3atT9V7FcCXDH7nH2WZ4oUsQpKlEfQSf0z55Qr3d3WjNWVA3PCApkSmTNTuTi3GNGHalNBymcfEjd78S4n37hjFGHP3RhD7vfZJq5SMsO4ODc7ptB0OD+aTj55CM8YLqEkNjcoTzHP2yYSKKvEw0FWgs8HUx/iTkVT87I+Cgods+3zHiQdwUsO/9aS+JxKHDjbdRm0NdkODlo9Kr81TkYnaSzL7IrRqg7dL937C8arJF9+ymobOJ3KSlveuWw1cd42KX7+hu4Hn3U5JsdxOo6j91lNC3ugQ2NfEPI9OSM8zORP4GOXZTnNyDJk8Lqh6bPtdHmw3FDoVFeRIY3dN/MKr7QFFxc8zSutg+BOU+VwmDV4+qnphjP4vYQiaUu++/yH4vPP20SYRleIj4In2jrqRDqapnOKQweA5WqCXrSmqnojbErRiQ9HS0Csme7PavijxgFEPX+D69Lhp7jmsnBsKcxGKctvZ63OMUHOnaaFwHjxST3gbFVNsP1leHFdZYbcidMohZQyuN/pQz+uKMeBk/N/A6BoMoYJFCyVVzV/uoVt1d5oEazdhzJpsE5zp17DIyG+NObqns6czxt0OwFlELeYC1IEndbzQYMhCFbPxOtK1QES6Wu8pX9YntD0SULi9UgAw5F0mhWwV4UK7nsNfSrg00Iy83KQSMughimve5UreZ2DiK4twRK86+hzzEy8IwZT7IlouoMHPobtbDs81fohDkTPkJ+L+FO0vIAEGdaYlvrLv3+M+nbaFpgGR/lE85KZgiv0QIBKYt9Xm48lYd7SOmwaNJMbHLX/NiRCFGXWSC306CeeVrLnGnmcsFdyNLEsWlqEFEqAGGyiddM23krU747+3dUW0LTHzIWrUQIwtj/Nh8L4fNpPEFsu+qU56zYbucfiEFlm8+rGotq9Lb6/nXASfpmIhM/ZoFAz6iMlxWgiGaGT49Rgwa6mZWOPWJtUT1b6G/iP/jg0BUkgIeTSBGKbDWSQQS5mWm1/ACgyZ7PUKbOfJxVoCycn5eJDgc35Omudor4GZ32W0LvwAKHdojXDq7iPkstg4K2bfFsmihUVbSsn31Q7k0e9i/GvqQ7XmPY7mIGEqBZ/PUNeunUTPjOPGX7bltnjaddujOuQIURJNNi4+LwmF7PibcfZ3MmomunIn1x7qsSrDhkvBZewyOcnddKjk3bv2gVYJPzXQdIuzBB+AAMdLo4JykWU/fjHyLOLRCDiZi9VYv6HzE0LxMbOv/5fcNdEas5img7celnnK0KHGzy4/xkYOcnf7DFnwKtE6X8OqTU6QgZIBuhpPFemJAhgYdW7nq5tmoSTq0s5XPTWhRtbjua/XjF1Tn9noww8il3rBOySb/ap2PwbuT5ksefSAfEPh7n"/>
+        <form id="challenge-form" action="/feed/@AmuAstra?__cf_chl_f_tk=BnQZwBWpm9AgmAdZiin51YFr918Oy7rJBIK69k7tE9Y-1661106396-0-gaNycGzNByU" method="POST" enctype="application/x-www-form-urlencoded">
+            <input type="hidden" name="md" value="u.ssoLhxj5vg7UJL09nSM7DSFC0VRwA8xlYBT6S_dSM-1661106396-0-AS40cvNyqs2o6AwnWgFHCTs8AjuCTl3MaZh-Op01e8mnKIDCPi7bav81ZKFCTOhI8dnyVKLgs5J3zk-kobv3y8srDPwc86zdOzGjIcWIm2jVY_Kv8by_dPqD2M1ny-5g9ouJAWqJa17QfahSzaIbruVr0F3ke5jHr6NTNulvqau6InlfD72XPn4x_PUm0LmiaFRbznMpaAEAthCPsHKu4au-wfBeS1mwbgZDjsQN7-3AHhBR4mSQ5BfAYTQ0KoXA2n5vi1NDv6JtlmgpabDPh91AWrd9CP4NJroNJFqG4qtrZ8Pl_E0rDCUkJ3fINkR-GRg0r-EvoQtLhklkN4qqIXMEd72WAT6DTY_hnczxGxavoKYaqKihQzpP53GY6D3920H_SE42PaCpRSV3tuWTyLerstc83i8kXzGybrr6tNAGmJvb3IcUd7L3-4YnlsG7dvg36okZ7w8lWPqpg-rtmbyUFQXJ58wWqvRDy7ti8ZgVgirc2yneRbkucIVt1LpgvNQr5TGcP7_qKmSCjU3pReWPIkvT_kESdq29ASsI7bWhKNpGULbZA_fFGoJoO0a1Fq3EBmpPIy74IQ8qQzR1G8tT6aND5cAMHpY_XdpcVvXJYawhvrGyNWECjyzKjgieZw" />
+            <input type="hidden" name="r" value="Ll4F7ZLm3VfYYVqp5HlL1_qNQoVXcjE2ob_TtRllGBY-1661106396-0-ASzRR2o/POo/O75FFjFAoBqqIUnAX/+lJ8wFhvsLLa4hzmbHPtXTVjcSMrgkrMKzgdRDUIZDBwrULNjCKOg0tW85xdLcSWsQz6EgifbhNASG+ByLVNeHQ/RG3y5FxNHEA3VfHz9NWEvkK6OHuQ9lCN8iBm1lyTmtbjR27uS3mnaNqKpXH15OPN7BfxU4V8xz13zjvyz+hQqhdlmdvwO+BIJIJFSe+gfYyLiD8qLG77+9PO/NPVe0t1Zyv7wF/U15yQKjP6ZsMoPwE2kc14gERE24QSegmt6AuJMtzmaHySsair68o4rI5Sk0XMc+wCddUehhEXSQ8OKFRs5XQBr7wymKqz6DA0rAA7O3L7vK6NaXaQONYDfzYX5+DKIlSRoN0UUFzaBCRpKgkc19yVCaCr84+E+ToSJO1arnowt7XPOk5hiSTouDVd8Du75EHlAdsKFQVDZurreMY24BMBdrER3oYrB6B7XnqGG/q0rgMy0HCWZdK83g1weVRE9DaMJ/oSlX0XpUNTmaTIWtWvlWNdELAVi0ZsYpsTqX/HJ5Adj0k/eLi18xuRJGfQGB08aJKkXEIk28AKB8RPAhGfIf2J9MATzgzEtpmhMylw8LoY1qaEfaXPp8ghwq8ufNpnsxRylJVtAGwUDBP8NaOeNCZS/tLPX2+vHZADoaa5fX1kfcUtvVvkvoBcPLdouGSRnvjkOrOSXoi7+Gk3JvXDyvQx9nMcbm8yHG955pt7uiDoyEREBChoWl/Uufo+5vrIc7Id6IrVFPvyzUMSzUxLzTokTud2rCJzoN2OnhBMeyDJwh8vweO1ikO3hDzW8skcWZchG54EirAP2brIuKg3UzG9ucRBmpFilcVDxm4BauF1Zbbj+6QdBNVpW1T1NYZNvJnNsc+lRP6UJhgpYdHAG2R9++ErPu2+xgKiGt2DuyrhdHQSCOH7IrTzRMw8moJk4jH4GW+b8C4hjlVKHFhEC6QQ5BG+bzf1EbHjs0QV4LTaFOqSxdyi20AlettLxcWc/dc5DsWSvgtbjM//GVNr35jcIJ4Y4pPB1NooIjBtcXggSC6F4T/b0DJHljOcHwjIQ9ZiGBOQKldQoGTq1IBs7yQYQ2yS2X06/f186JRejFoiMBqKOhBbESapcynRj18w3c+FlzUqVw6pFOFlZPK8TiQYXGWpBinlEkJIRhnW4UwlP9PDDkJ3n9sipatcVDnd3rfYoiw7yVMqh7ypOoYSySn/6+eL+IVh9NpK8BCrhHimLNSuCAgDB9DrFCX6cIUhKhv6XNGTNutJjYrxM2baiS2RUItaKotjSZhkKCbR9ibs2zejCPMdHvOk1T1cwfFpUQH1bkw50ijMVhYlIQDuqvbof0uiGtcybgLiVvyfupUf7ExidkhdBzunH3CkoLxFcoXsjyt9aDv/Gix0Z1ntL0vSFTPunuexIXk4oYEIPBtu746ie3CVCukRYEKrko2R2DwZHx1i3dEofCS/020IPy5Nv3gQTurFF7mdSZMJHLswk9hCEtSc3bhlotutWJAPOfokLIXk0pdWySPoiyVDMzDBnaewKEaFlmBGhx9YqQCkkh/J22PB/dJyEuNIW11ZMdyyXmsXk+D09WBMDQa9V0wXUDYe+9jAPG+1AOkMVfpSgS41oOXe6Y51JdmwAxmebmrGM/2E0N0rTHftr10QdixO43DXnkrZqeJmvhtPnnMkok0nRUjQqmz5vcW7CgF+rQ/8PpI+3o9Rkj2cJX+RcI/UwZnj+8J2+jZsDAvw3U4ICt"/>
         </form>
     </div>
 </div>
 <script>
     (function(){
         var trkjs = document.createElement('img');
-        trkjs.setAttribute('src', '/cdn-cgi/images/trace/jsch/js/transparent.gif?ray=73e50bfe5c0a9c70');
+        trkjs.setAttribute('src', '/cdn-cgi/images/trace/jsch/js/transparent.gif?ray=73e56b005ba88003');
         trkjs.setAttribute('style', 'display: none');
         document.body.appendChild(trkjs);
         var cpo = document.createElement('script');
-        cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=73e50bfe5c0a9c70';
+        cpo.src = '/cdn-cgi/challenge-platform/h/g/orchestrate/jsch/v1?ray=73e56b005ba88003';
         window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;
         window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, -window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;
         if (window.history && window.history.replaceState) {
             var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;
-            history.replaceState(null, null, "\/feed\/@AmuAstra?__cf_chl_rt_tk=4g0T3otNZkQa6h5NE0V8ZL_w0WX5bttHrBwDZzBX0wU-1661102504-0-gaNycGzNByU" + window._cf_chl_opt.cOgUHash);
+            history.replaceState(null, null, "\/feed\/@AmuAstra?__cf_chl_rt_tk=BnQZwBWpm9AgmAdZiin51YFr918Oy7rJBIK69k7tE9Y-1661106396-0-gaNycGzNByU" + window._cf_chl_opt.cOgUHash);
             cpo.onload = function() {
                 history.replaceState(null, null, ogU);
             };
@@ -97,7 +97,7 @@
     <div class="footer" role="contentinfo">
         <div class="footer-inner">
             <div class="clearfix diagnostic-wrapper">
-                <div class="ray-id">Ray ID: <code>73e50bfe5c0a9c70</code></div>
+                <div class="ray-id">Ray ID: <code>73e56b005ba88003</code></div>
             </div>
             <div class="text-center">
                 Performance &amp; security by
