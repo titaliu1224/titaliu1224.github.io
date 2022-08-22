@@ -74,7 +74,16 @@ order: 6
     ```
 3. 前往你的主題的 `github > _layouts`{: .filepath}，複製你想呈現的頁面的 html 檔，檔名通常會和你 `_tabs`{: .filepath} 中其他檔案的 `layout` 的值相同，例如我的是 `archives.html`{: .pathfile}
 4. 修改 html 檔，將原本的 `site.posts` 改成 `site.friends_link` （即步驟2中設定的 `collections` ）
-5. 理論上他要運作得很完美了！
+5. Jekyll collection 預設使用 `date` 由舊到新排序，但我希望新的是第一個，修改了一下（請自行補上 `%` ，我直接打出來會出錯）：
+
+    ```
+    { assign sorted = site.friends_link | reverse }
+    { for post in sorted }
+        ...other code
+    { endfor }
+    ```
+   
+6. 理論上他要運作得很完美了！
 （我是隔一天才打這篇文章的，若有缺漏可以告訴我，感謝！）
 
 ## 結語

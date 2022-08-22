@@ -1,6 +1,6 @@
 ---
 layout: page
-# The Archives of posts.
+# The Friends of posts.
 ---
 
 {% include lang.html %}
@@ -15,12 +15,14 @@ layout: page
 
 <div id="archives" class="pl-xl-3">
 
-{% for post in site.friends_link %}
+{% assign sorted = site.friends_link | reverse %}
+
+{% for post in sorted %}
   {% capture cur_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 
   {% if cur_year != last_year %}
     {% unless forloop.first %}</ul>{% endunless %}
-    <div class="year lead">{{ cur_year }}</div>
+    <span class="lead">{{ cur_year }}</span>
     <ul class="list-unstyled">
     {% assign last_year = cur_year %}
   {% endif %}
