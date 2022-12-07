@@ -108,7 +108,7 @@ VARCHAR 和 CHAR 不同的地方是，當使用 CHAR(10) 只有輸入 hi 兩個�
 - 第五欄（Default） 表示該欄是否有預設資料值，但我們在建立時沒有指定預設資料所以這裡為 NULL。
 - 最後一欄（Extra）會記錄欄位的額外資訊。
 
-## 資料表操作 Lv. 1.5 - 修改 table
+## 資料表操作 Lv. 1.2 - 修改 table
 
 雖然前面有提到我們應該要設計好 table 再來建立，但 MySQL 仍有一些方法可以修正打錯的資料。<br>
 小提示，要修改就要趁早，不然 data 輸入後再修改可能會造成很多麻煩。
@@ -139,7 +139,7 @@ Records: 0  Duplicates: 0  Warnings: 0
 
 ### 修改欄位的資料型態
 
-- 指令：`ALTER TABLE <table> MODIFY <column_name>`
+- 指令：`ALTER TABLE <table> MODIFY <column_name> <data_type>`
 - 注意事項：只能修改資料型態，不能修改欄位名。
 
 ```sql
