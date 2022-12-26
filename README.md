@@ -16,3 +16,6 @@
 
 ### 字型
 [台北黑體](https://sites.google.com/view/jtfoundry/)<br>
+
+## 指令
+使用 ` bundle exec jekyll s` 在本地端測試

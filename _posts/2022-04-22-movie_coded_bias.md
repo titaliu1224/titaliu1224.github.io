@@ -7,7 +7,7 @@ tags:
     - AI
     - thoughts
 
-categories: [心得分享]
+categories: [日常碎碎唸]
 
 mermaid: true
 ---
