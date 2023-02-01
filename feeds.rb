@@ -5,8 +5,8 @@ require 'yaml'
 require 'to_slug'
 require 'sanitize'
 
-feed_file = "./_friends_link/rss_feeds.yml"
-output_location = "./_friends_link"
+feed_file = "_friends_link/rss_feeds.yml"
+output_location = "_friends_link"
 
 count = 0
 feed = YAML.load_file(feed_file) 
@@ -42,7 +42,7 @@ feed.each do |feeditem|
 			file.puts "dateadded: #{dateadded}"
 			file.puts "description: \"#{description}\""
 			file.puts "link: \"#{entry_url}\""
-			file.puts "category:"
+			file.puts "category: [#{name}]"
 			file.puts "---"
 			file.close
 		end

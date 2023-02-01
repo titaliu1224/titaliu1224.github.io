@@ -84,6 +84,7 @@ GEM
     public_suffix (4.0.7)
     racc (1.6.0)
     rainbow (3.1.1)
+    rake (13.0.6)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -120,6 +121,7 @@ DEPENDENCIES
   feed-normalizer (~> 1.5, >= 1.5.2)
   html-proofer (~> 3.18)
   jekyll-theme-chirpy (~> 5.1, >= 5.1.0)
+  rake
   sanitize (~> 6.0)
   to_slug (~> 1.0, >= 1.0.8)
   tzinfo (~> 1.2)
