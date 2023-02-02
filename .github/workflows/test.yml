@@ -3,7 +3,7 @@ on:
   push:
     branches: [ "main" ]
   schedule: # Run workflow automatically
-    - cron: '0,15 * * * *' # Runs every hour, on the hour
+    - cron: '0 * * * *' # Runs every hour, on the hour
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
 
 jobs:   
@@ -26,8 +26,6 @@ jobs:
           dir: _friends_link/
           filename: RyanKert.xml
           
-      - name: use feeds.rb to make rss to markdown
-      - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0' # Not needed with a .ruby-version file
