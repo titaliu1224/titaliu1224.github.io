@@ -2,8 +2,6 @@ name: 'Automatic build for downloading feed'
 on:
   push:
     branches: [ "main" ]
-  schedule: # Run workflow automatically
-    - cron: '0 * * * *' # Runs every hour, on the hour
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
 
 jobs:   
@@ -26,11 +24,14 @@ jobs:
           dir: _friends_link/
           filename: RyanKert.xml
           
-      - uses: ruby/setup-ruby@v1
+      - name: setup ruby
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.1 # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-      - run: ruby feeds.rb
+      - name: install bundle
+        run: bundle install
+      - name: run feeds.rb
+        run: ruby feeds.rb
       
           
           
