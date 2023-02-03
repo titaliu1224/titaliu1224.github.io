@@ -24,6 +24,11 @@ jobs:
           dir: _friends_link/
           filename: RyanKert.xml
           
+  generate-md-file-for-rss:
+    needs: download-feed-file-automatically
+    name: transfer rss to markdown
+    runs-on: ubuntu-latest
+    steps:
       - name: setup ruby
         uses: ruby/setup-ruby@v1
         with:
