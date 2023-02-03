@@ -31,7 +31,6 @@ feed.each do |feeditem|
 		date = dateadded if date.nil?
 
 		filename = "#{output_location}/#{title.to_url}.md"
-		count += 1
 		description = Sanitize.fragment(entry.description)
 		if File.exist?(filename)
 			next
@@ -46,6 +45,10 @@ feed.each do |feeditem|
 			file.puts "category: [#{name}]"
 			file.puts "---"
 			file.close
+
+			count += 1
 		end
 	end  
+
+	puts "added #{count} files form #{name}"
 end
