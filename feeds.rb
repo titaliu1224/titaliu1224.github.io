@@ -4,6 +4,7 @@ require 'time'
 require 'yaml'
 require 'to_slug'
 require 'sanitize'
+require 'stringex'
 
 feed_file = "_friends_link/rss_feeds.yml"
 output_location = "_friends_link"
@@ -29,7 +30,7 @@ feed.each do |feeditem|
 		date = updated if date.nil?
 		date = dateadded if date.nil?
 
-		filename = "#{output_location}/#{count}-#{title.to_slug.sub(/-\Z/,"")}.md"
+		filename = "#{output_location}/#{title.to_url}.md"
 		count += 1
 		description = Sanitize.fragment(entry.description)
 		if File.exist?(filename)
