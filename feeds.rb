@@ -6,8 +6,8 @@ require 'to_slug'
 require 'sanitize'
 require 'stringex'
 
-feed_file = "_friends_link/rss_feeds.yml"
-output_location = "_friends_link"
+feed_file = "assets/friends_file/rss_feeds.yml"
+output_location = "assets/friends_file"
 
 count = 0
 feed = YAML.load_file(feed_file) 
