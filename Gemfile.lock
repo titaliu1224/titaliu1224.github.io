@@ -97,6 +97,7 @@ GEM
     sassc (2.4.0)
       ffi (~> 1.9)
     simple-rss (1.3.3)
+    stringex (2.8.5)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -123,6 +124,7 @@ DEPENDENCIES
   jekyll-theme-chirpy (~> 5.1, >= 5.1.0)
   rake
   sanitize (~> 6.0)
+  stringex (~> 2.8, >= 2.8.2)
   to_slug (~> 1.0, >= 1.0.8)
   tzinfo (~> 1.2)
   tzinfo-data
