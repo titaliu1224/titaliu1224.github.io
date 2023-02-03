@@ -35,13 +35,12 @@ jobs:
         
       - name: Commit files
         run: |
-          git config --local user.email "test@github.com"
-          git config --local user.name "GitHub Action test"
-          git add ./friends_link
-          git commit -m "Add changes"
-      - name: Push changes # push the output folder to your repo
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "Add changes"
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
+          branch: ${{ github.ref }}
         
