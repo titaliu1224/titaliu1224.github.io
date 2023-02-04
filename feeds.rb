@@ -49,6 +49,5 @@ feed.each do |feeditem|
 			count += 1
 		end
 	end  
-
 	puts "added #{count} files form #{name}"
 end
