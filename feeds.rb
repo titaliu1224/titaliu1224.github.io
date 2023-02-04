@@ -30,7 +30,7 @@ feed.each do |feeditem|
 		date = updated if date.nil?
 		date = dateadded if date.nil?
 
-		filename = "#{output_location}\\#{title.to_url}.md"
+		filename = "#{output_location}/#{title.to_url}.md"
 		description = Sanitize.fragment(entry.description)
 		if File.exist?(filename)
 			next
