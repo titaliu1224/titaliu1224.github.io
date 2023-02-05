@@ -17,6 +17,8 @@ img_path: ../../assets/img/posts/
 一直都很想要把 medium 的一些舊文章和朋友的文章引用進自己的 blog，這樣就能在我沒有更新的時候這裡也能有新文章出現，~~也就是說我要偷懶的意思~~。<br>
 本篇將會示範如何在我的 Jekyll 網站中增加一個頁面來顯示其他網站的文章，可能內容和你的主題會有出入，請依照你的狀況做改變。<br>
 
+> 本篇內容是「手動」下載 RSS 檔案和「手動」 deploy Github page ，如對自動化此流程感興趣請參照 [利用 Github Actions 自動連結其他 Blog 的最新貼文](/posts/automatic_link_to_other_blog/)
+
 ## 事前準備
 1. 擁有一個 Jeykyll 網站，並下載了 Ruby
 2. 擁有一個 Github，並下載了 Git
