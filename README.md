@@ -1,6 +1,7 @@
 # My blog with Jekyll
 
 ## 現在情況
+- 更改字型：英文 -> Open Sans ，中文： -> Noto Sans TC ，找不到字體的話就微軟正黑，再不行就 sans-serif (2023/02/05)
 - 自動下載朋友的 rss 與 deploy (2023/02/05)
 - 加朋友了！但需要讓下載 feed 這件事自動化 (2022/08/18)
 - 新增留言功能(giscus) (2022/07/27)

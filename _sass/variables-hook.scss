@@ -4,16 +4,39 @@
 
 /* custom font family */
 
+// Taipei Sans
 @font-face {
   font-family: 'TaipeiSans';
-  src: url("../../TaipeiSansTCBeta-Regular.woff") format("woff"),
-    // url("../../TaipeiSansTCBeta-Light.ttf") format("truetype");
+  src: local("TaipeiSansTCBeta-Regular"),
+  local("TaipeiSansTCBeta Regular"),
+  url("../../TaipeiSansTCBeta-Regular.woff") format("woff");
 }
-$font-main: 'TaipeiSans', sans-serif;
 
+// Open Sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+/*
+@font-face {
+  font-family: 'Open Sans';
+  src: local("Open_Sans"),
+  local("Open Sans"),
+  url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,600;1,400&display=swap");
+}
+*/
+
+// Noto Sans
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+
+$font-main: 'Open Sans', 'Noto Sans TC', '微軟正黑體', sans-serif;
+
+/*
 @font-face{
   font-family: 'TaipeiSans-Bold';
-  src: url("../../TaipeiSansTCBeta-Bold.woff") format("woff"),
+  src: local("TaipeiSansTCBeta-Bold"),
+  local("TaipeiSansTCBeta Bold"),
+  url("../../TaipeiSansTCBeta-Bold.woff") format("woff");
     // url("../../TaipeiSansTCBeta-Bold.ttf") format("truetype");
 }
-$font-bold: 'TaipeiSans-Bold', sans-serif;
+
+
+$font-bold: 'Open Sans', 'TaipeiSans-Bold', sans-serif;
+*/
