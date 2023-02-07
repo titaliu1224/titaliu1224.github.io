@@ -16,6 +16,9 @@ vendor
 node_modules
 package-lock.json
 
+# github actions
+.github/workflows
+
 # 測試文章
 _posts/2022-04-20-my_first_article.md
 
