@@ -1,5 +1,5 @@
 ---
-title: "利用 Github Actions 自動連結其他 Blog 的最新貼文"
+title: "利用 Github Actions 自動連結其他 Blog 的 RSS"
 date: 2023-02-05 20:30:00 +0800
 
 tags: 
@@ -8,6 +8,7 @@ tags:
     - workflow
     - YAML
     - Ruby
+    - RSS
 
 mermaid: true
 render_with_liquid: false
