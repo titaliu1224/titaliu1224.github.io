@@ -6,7 +6,8 @@ tags:
   - Python
   - OpenCV
   - image processing
-  - 
+  - rotate image
+  - trackbar
 
 mermaid: true
 
@@ -74,7 +75,7 @@ cv2.createTrackbar("degree", "Rotate Image", 0, 359, rotate_img)
 ```
 
 如此一來就建立了一個這樣的視窗：
-![視窗截圖]()
+![視窗截圖](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/window.png?raw=true)
 _利用 imshow 和 createTrackbar 產生的 GUI 視窗_
 
 ### 旋轉中心圓形區域
@@ -90,9 +91,38 @@ A --> B[旋轉角度滑桿滑動] --> D[將值存進 bar_degree 變數中]
 A --> C[裁切圓形半徑滑桿滑動] --> E[將值存進 bar_radius 變數中]
 D --> F
 E --> F[根據 bar_radius 建立一個圓形遮罩]
-F --> G[利用 bitwise_and() 裁切出圓形區域，並根據 bar_degree 旋轉該區域]
+F --> G[利用 bitwise_and 裁切出圓形區域，並根據 bar_degree 旋轉該區域]
 G --> H[根據 bar_radius 再次建立圓形遮罩]
-H --> I[這次使用 bitwise_not() 裁切掉中心區域的圓形部分]
-I --> J[使用 bitwise_or() 將旋轉後也裁切好的圖片結合]
+H --> I[這次使用 bitwise_not 裁切掉中心區域的圓形部分]
+I --> J[使用 bitwise_or 將旋轉後也裁切好的圖片結合]
 J --> K[顯示結果於視窗中]
 ```
+
+首先必須先找到中心圓區域做旋轉： <br>
+1. 利用 `np.zeros_like(origin_img)` 製作一個和原圖片相同尺寸的全黑圖片。（其中 `np` 為 `numpy`） <br>
+2. 利用 `cv2.circle(img, center, radius, color, thickness)` 在剛剛的全黑畫布上畫一個實心白色圓形
+  - `img` : 要用來畫圓的圖片
+  - `center` : 圓心座標 (X, Y)
+  - `radius` : 圓的半徑
+  - `color` : 圓的顏色 (B, G, R)
+  - `thickness` : 圓的框線粗細，以 px 為單位，設為 -1 會填滿整個圓
+
+
+```py
+def crop_circle(radius):
+    global origin_img
+    (h, w, d) = origin_img.shape # 讀取圖片大小
+    center = (w // 2, h // 2)
+
+    # 產生 mask
+    mask = np.zeros_like(origin_img)
+    mask = cv2.circle(mask, center, radius, (255,255,255), -1)
+    print("mask: ")
+    show_img(mask)
+
+    # 取得圓形圖片
+    crop = cv2.bitwise_and(origin_img, mask)
+
+    return crop
+```
+
