@@ -24,8 +24,11 @@ img_path: ../../assets/img/posts/14_Longest_Common_Prefix
 旋轉一個角度（逆時針旋轉 0 度至 359 度）：利用一個滑動條(trackbar)控制旋轉角度。
 
 ## 成果
-![整張圖片旋轉]()
+![整張圖片旋轉](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/rotate.gif?raw=true)
 _透過滑動滑桿調整整張圖片的旋轉角度_
+
+![內切圓旋轉](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/crop-and-rotate.gif?raw=true)
+_透過滑桿調整內切圓半徑與旋轉角度_
 
 ## 做法
 
