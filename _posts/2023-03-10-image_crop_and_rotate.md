@@ -31,6 +31,12 @@ _透過滑動滑桿調整整張圖片的旋轉角度_
 ![內切圓旋轉](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/crop-and-rotate.gif?raw=true){: w="500", h="500"}
 _透過滑桿調整內切圓半徑與旋轉角度_
 
+## 開發環境
+
+| OS         | Editor             | Language      | OpenCV       |
+|------------|--------------------|---------------|--------------|
+| Windows 10 | Visual Studio Code | Python 3.9.16 | OpenCV 4.5.4 |
+
 ## 做法
 
 > 本次程式碼： <br>
