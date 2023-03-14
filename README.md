@@ -13,6 +13,7 @@
 ## 好用的連結
 ### 語法
 [markdown 語法文件](https://markdown.tw/#em) <br>
+[mermaid 語法文件](https://mermaid.js.org/syntax/flowchart.html) <br>
 [jekyll 可以用的 markdown 語法](https://www.markdownguide.org/tools/jekyll/)<br>
 [這個主題的一些語法](https://chirpy.cotes.page/posts/write-a-new-post/)
 
@@ -20,4 +21,4 @@
 [台北黑體](https://sites.google.com/view/jtfoundry/)<br>
 
 ## 指令
-使用 ` bundle exec jekyll s` 在本地端測試
+使用 `bundle exec jekyll s` 在本地端測試
