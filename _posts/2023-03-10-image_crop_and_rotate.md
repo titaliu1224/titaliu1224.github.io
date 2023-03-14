@@ -85,6 +85,7 @@ cv2.createTrackbar("degree", "Rotate Image", 0, 359, rotate_img)
 ```
 
 如此一來就建立了一個這樣的視窗：
+
 ![視窗截圖](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/window.png?raw=true){: w="500", h="500"}
 _利用 imshow 和 createTrackbar 產生的 GUI 視窗_
 
