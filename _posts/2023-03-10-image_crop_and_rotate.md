@@ -13,10 +13,10 @@ mermaid: true
 
 categories: [Python | 影像處理]
 
-img_path: ../../assets/img/posts/14_Longest_Common_Prefix
+img_path: ../../assets/img/posts/image_crop_and_rotate
 ---
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger]()
+這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger]() <br>
 
 ## 功課要求
 撰寫一個程式將一張圖像的 <br>
@@ -25,10 +25,10 @@ img_path: ../../assets/img/posts/14_Longest_Common_Prefix
 旋轉一個角度（逆時針旋轉 0 度至 359 度）：利用一個滑動條(trackbar)控制旋轉角度。
 
 ## 成果
-![整張圖片旋轉](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/rotate.gif?raw=true)
+![整張圖片旋轉](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/rotate.gif?raw=true){: w="500", h="500"}
 _透過滑動滑桿調整整張圖片的旋轉角度_
 
-![內切圓旋轉](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/crop-and-rotate.gif?raw=true)
+![內切圓旋轉](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/crop-and-rotate.gif?raw=true){: w="500", h="500"}
 _透過滑桿調整內切圓半徑與旋轉角度_
 
 ## 做法
@@ -79,7 +79,7 @@ cv2.createTrackbar("degree", "Rotate Image", 0, 359, rotate_img)
 ```
 
 如此一來就建立了一個這樣的視窗：
-![視窗截圖](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/window.png?raw=true)
+![視窗截圖](https://github.com/titaliu1224/Image-Processing/blob/main/assignment1/window.png?raw=true){: w="500", h="500"}
 _利用 imshow 和 createTrackbar 產生的 GUI 視窗_
 
 ### 旋轉中心圓形區域
@@ -91,11 +91,11 @@ _利用 imshow 和 createTrackbar 產生的 GUI 視窗_
 flowchart TD
 
 A[建立視窗與滑桿]
-A --> B[旋轉角度滑桿滑動] --> D[將值存進 bar_degree 變數中]
-A --> C[裁切圓形半徑滑桿滑動] --> E[將值存進 bar_radius 變數中]
-D --> F[根據 bar_radius 建立一個圓形遮罩]
+A --> B[旋轉角度滑桿滑動] --> D["將值存進 bar_degree 變數中"]
+A --> C[裁切圓形半徑滑桿滑動] --> E["將值存進 bar_radius 變數中"]
+D --> F["根據 bar_radius 建立一個圓形遮罩"]
 E --> F
-F --> G[利用 bitwise_and 裁切出圓形區域，並根據 bar_degree 旋轉該區域]
+F --> G["利用 bitwise_and 裁切出圓形區域，並根據 bar_degree 旋轉該區域"]
 G --> H[根據 bar_radius 再次建立圓形遮罩]
 H --> I[這次使用 bitwise_not 裁切掉中心區域的圓形部分]
 I --> J[使用 bitwise_or 將旋轉後也裁切好的圖片結合]
@@ -112,13 +112,13 @@ J --> K[顯示結果於視窗中]
   - `radius` : 圓的半徑
   - `color` : 圓的顏色 (B, G, R)
   - `thickness` : 圓的框線粗細，以 px 為單位，設為 -1 會填滿整個圓
-  ![圓形遮罩]()
+![圓形遮罩](mask1.webp){: w="500", h="500"}
 3. 把圓形遮罩拿來和原圖 `cv2.bitwise_and(src1, src2[, dst[, mask]])` 後，由於剛剛的圓形遮罩只有中心圓形部分有值（白色），所以進行 AND 後能得到原圖的中心圓形部分。
    - `src1` , `src2` : input
    - `dst` : output
    - `mask` : 指定要使用 `src1` 和 `src2` 的哪些位置來做運算，是一個 8-bit 單通道 array
-   - 關於參數中的 `[]` ，那代表參數可以自行選擇要不要填，並非必要參數，可以參考 [這篇文章](https://blog.csdn.net/Dontla/article/details/101722486)
-  ![中心圓形]()
+   - 關於參數中的 `[]` ，那代表參數可以自行選擇要不要填，並非必要參數，可以參考 [這篇文章](https://blog.csdn.net/Dontla/article/details/101722486)  
+![中心圓形](circle1.webp){: w="500", h="500"}
 4. 再來就能把這個圓形圖片丟到剛剛提到的旋轉函式裡了！
 
 ```py
@@ -141,8 +141,10 @@ def crop_circle(radius):
 
 再來就是將旋轉完的圓形貼回原圖，這裡一樣要用到圓形遮罩來實現。
 1. 像剛剛一樣畫一個黑底的白色圓形圖片
-2. 使用 `cv2.bitwise_not(src[, dst[, mask]])` 將整個圖片的黑白翻轉，這樣就得到中心為黑色但四周為白色的遮罩。
-  ![反向遮罩]()
+2. 使用 `cv2.bitwise_not(src[, dst[, mask]])` 將整個圖片的黑白翻轉，這樣就得到中心為黑色但四周為白色的遮罩。<br>
+  ![反向遮罩](mask2.webp){: w="500", h="500"}
+3. 使用 `cv2.bitwise_and(src1, src2[, dst[, mask]])` 擷取圖片外圍，並利用 `cv2.bitwise_or(src1, src2[, dst[, mask]])` 結合兩張圖片，產生最終結果。
+  ![結果](result.webp)
 
 ```py
 def combine_img(center_img, radius):
@@ -163,3 +165,8 @@ def combine_img(center_img, radius):
 
     return combined_img
 ```
+
+## 總結
+
+本篇利用 OpenCV 進行簡單的圖片旋轉與裁切，作為 OpenCV 和影像處理入門是非常友善的！ <br>
+推薦想接觸影像處理領域的人嘗試。
