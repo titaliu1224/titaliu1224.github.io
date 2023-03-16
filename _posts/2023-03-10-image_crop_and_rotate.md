@@ -16,7 +16,7 @@ categories: [Python | 影像處理]
 img_path: ../../assets/img/posts/image_crop_and_rotate
 ---
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger]() <br>
+這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/03/s1091444-1.html) <br>
 
 ## 功課要求
 撰寫一個程式將一張圖像的 <br>
@@ -179,6 +179,6 @@ def combine_img(center_img, radius):
 推薦想接觸影像處理領域的人嘗試。
 
 ## 參考資料
-- [howarder3/ironman2020_OpenCV_photoshop](https://github.com/howarder3/ironman2020_OpenCV_photoshop)
+- [howarder3/ironman2020_OpenCV_photoshop](https://github.com/howarder3/ironman2020_OpenCV_photoshop/blob/273e786aa3d7d5cc5f75326769a961c9212d83d8/Day03_%E5%9C%96%E7%89%87%E5%89%AA%E8%A3%81%E6%97%8B%E8%BD%89%E7%B8%AE%E6%94%BE_crop_rotate_resize.ipynb)
 - [加入滑桿 ( Trackbar )](https://steam.oxxostudio.tw/category/python/ai/opencv-trackbar.html)
 - [How to use OpenCV to crop circular image?](https://stackoverflow.com/questions/61516526/how-to-use-opencv-to-crop-circular-image)
