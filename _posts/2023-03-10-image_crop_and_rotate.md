@@ -179,6 +179,7 @@ def combine_img(center_img, radius):
 推薦想接觸影像處理領域的人嘗試。
 
 ## 參考資料
-- [howarder3/ironman2020_OpenCV_photoshop](https://github.com/howarder3/ironman2020_OpenCV_photoshop/blob/273e786aa3d7d5cc5f75326769a961c9212d83d8/Day03_%E5%9C%96%E7%89%87%E5%89%AA%E8%A3%81%E6%97%8B%E8%BD%89%E7%B8%AE%E6%94%BE_crop_rotate_resize.ipynb)
+- [howarder3/ironman2020_OpenCV_photoshop](https://reurl.cc/9VvDOj)
 - [加入滑桿 ( Trackbar )](https://steam.oxxostudio.tw/category/python/ai/opencv-trackbar.html)
 - [How to use OpenCV to crop circular image?](https://stackoverflow.com/questions/61516526/how-to-use-opencv-to-crop-circular-image)
+
