@@ -17,7 +17,7 @@ categories: [Python | 影像處理]
 img_path: ../../assets/img/posts/image_crop_and_rotate
 ---
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/03/s1091444-1.html) <br>
+這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/03/s1091444-2.html) <br>
 
 ## 功課要求
 撰寫一個程式，以灰階模式讀取一張圖像  `imread(path, IMREAD_GRAYSCALE)`
