@@ -1,5 +1,5 @@
 ---
-title: "使用 Python, OpenCV 建立滑桿以旋轉圖片、裁切圖片"
+title: "影像處理小白（一）：建立滑桿以旋轉圖片、裁切圖片"
 date: 2023-03-10 19:30:00 +0800
 
 tags: 
@@ -11,10 +11,12 @@ tags:
 
 mermaid: true
 
-categories: [Python | 影像處理]
+categories: [Python, 影像處理]
 
 img_path: ../../assets/img/posts/image_crop_and_rotate
 ---
+
+> 本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程 
 
 這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/03/s1091444-1.html) <br>
 

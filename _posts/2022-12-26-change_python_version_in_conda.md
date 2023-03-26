@@ -9,7 +9,7 @@ tags:
     - PowerShell
     - learning
 
-categories: [Python]
+categories: [Python, 學習日誌]
 
 img_path: ../../assets/img/posts/change_python_version_in_conda
 ---

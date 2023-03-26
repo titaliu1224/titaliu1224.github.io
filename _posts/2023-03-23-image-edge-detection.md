@@ -1,5 +1,5 @@
 ---
-title: "Python 和 OpenCV 的影像邊緣偵測"
+title: "影像處理小白（二）：影像邊緣偵測"
 date: 2023-03-23 22:30:00 +0800
 
 tags: 
@@ -12,7 +12,7 @@ tags:
 
 mermaid: true
 
-categories: [Python | 影像處理]
+categories: [Python, 影像處理]
 
 img_path: ../../assets/img/posts/image_crop_and_rotate
 ---
