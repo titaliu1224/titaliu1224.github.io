@@ -21,12 +21,12 @@ img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 
 ## 功課要求
 
-1. 撰寫傅利葉轉換程式(Forward Fourier Transform and Inverse Fourier Transform)將一張圖像轉換至頻域
+1. 撰寫傅利葉轉換程式 (Forward Fourier Transform and Inverse Fourier Transform) 將一張圖像轉換至頻域
 2. 將頻譜大小與相位角度各以灰階256 色圖像方式呈現出
 3. 呈現還原後圖像
 
 ## 成果
-![邊緣偵測與素描線條展示](https://github.com/titaliu1224/Image-Processing/blob/main/assignment3/result.png?raw=true){: w="500", h="500"}
+![邊緣偵測與素描線條展示](https://github.com/titaliu1224/Image-Processing/blob/main/assignment3/result.png?raw=true){: w="650", h="650"}
 _程式完成後的執行結果_
 
 ## 開發環境
@@ -151,7 +151,7 @@ _亮部集中於圖片中間的頻譜圖_
 
 ### 5/ 相位角度圖
 
-相位角度通常用來描述圖片的輪廓與細節，這裡直接使用 `cv2.phase` 來提取相角，再用和上一步一樣的方法進行平移。
+相位角度通常用來描述圖片的輪廓與細節，這裡直接使用 `cv2.phase()` 來提取相角，再用和上一步一樣的方法進行平移。
 
 ```py
 # get phase image
