@@ -9,6 +9,7 @@ tags:
   - edge detection
   - Sobel operators
   - Gaussian blur
+  - noise reduction
 
 mermaid: true
 
