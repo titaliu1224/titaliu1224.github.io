@@ -40,7 +40,7 @@ _程式完成後的執行結果_
 
 話說 Copilot 真的好用，這次的作業有一半是他給了我建議我再去查函式定義。
 
-使用的 library 如下：
+使用的 libraries 如下：
 
 ```py
 import cv2
