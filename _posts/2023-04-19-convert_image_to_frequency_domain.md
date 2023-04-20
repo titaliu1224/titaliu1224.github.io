@@ -17,7 +17,7 @@ math: true
 img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/03/s1091444-3.html) <br>
+這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/04/s1091444-3.html) <br>
 
 ## 功課要求
 
