@@ -1,13 +1,12 @@
 ---
 title: "影像處理小白（三）：使用 DFT 將影像轉換至頻域"
-date: 2023-03-23 22:30:00 +0800
+date: 2023-04-19 22:30:00 +0800
 
 tags: 
   - Python
   - OpenCV
   - image processing
   - DFT
-  - noise reduction
   - frequency domain
 
 categories: [Python, 影像處理]
