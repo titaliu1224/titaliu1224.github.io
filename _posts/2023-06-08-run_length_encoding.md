@@ -1,6 +1,6 @@
 ---
 title: "影像處理小白（六）：Run-Length Encoding 壓縮圖片"
-date: 2023-06-06 22:24:00 +0800
+date: 2023-06-08 22:24:00 +0800
 
 tags: 
   - Python
@@ -51,7 +51,7 @@ import numpy as np
 
 ### 1/ 利用迴圈讀入三張圖片
 
-建立一個儲存三張圖片路徑的 list ，使用迴圈搭配 `cv2.imread(filename)` 讀入圖片並送至 `compress(original_img, compress_file)` 進行壓縮，取得壓縮率並儲存在 `compress_ratio[i]` 中。 <br>
+建立一個儲存三張圖片路徑的 list ，使用迴圈讀入圖片並送至 `compress(original_img, compress_file)` 進行壓縮，取得壓縮率並儲存在 `compress_ratio[i]` 中。 <br>
 
 
 ```py
