@@ -24,6 +24,21 @@ jobs:
           dir: assets/friends_file/
           filename: RyanKert.xml
           
+      - uses: suisei-cn/actions-download-file@v1.3.0
+        id: downloadfile  # Remember to give an ID if you need the output filename
+        name: Download tigercosmos.xml
+        with:
+          url: "https://tigercosmos.xyz/atom.xml"
+          target: assets/friends_file/
+          filename: tigercosmos.xml
+          
+      - uses: suisei-cn/actions-download-file@v1.3.0
+        name: Download the file
+        with:
+          url: "https://blog.ryankert.cc/atom.xml"
+          target: assets/friends_file/
+          filename: RyanKert.xml
+          
   generate-md-file-for-rss:
     needs: download-feed-file-automatically
     name: transfer rss to markdown
