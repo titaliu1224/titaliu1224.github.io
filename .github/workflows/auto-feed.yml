@@ -33,7 +33,7 @@ jobs:
           filename: tigercosmos.xml
           
       - uses: suisei-cn/actions-download-file@v1.3.0
-        name: Download the file
+        name: Download RyanKert.xml
         with:
           url: "https://blog.ryankert.cc/atom.xml"
           target: assets/friends_file/
