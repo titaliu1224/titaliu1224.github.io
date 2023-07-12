@@ -29,6 +29,7 @@ jobs:
           force: true
   
   download-feed-file-automatically:
+    needs: delete-old-rss-files
     name: Update this feed files for friends
     runs-on: ubuntu-latest
     steps:
