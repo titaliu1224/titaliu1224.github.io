@@ -9,6 +9,9 @@ jobs:
     name: delete all friends feed files 
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
       - name: delete files
         run:
           rm -rf assets/friends_file/
