@@ -19,7 +19,7 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add ./_friends_link
+          git add .
           git commit -a -m "Automatic delete rss files from workflow" || true
       - name: Push changes
         uses: ad-m/github-push-action@master
