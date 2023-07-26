@@ -26,10 +26,10 @@ img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 部落格上應敘述你的壓縮方法，提供壓縮檔之格式，並計算三張圖的平均壓縮率
 (compression ratio)。
 
-![要壓縮的圖片]([https://github.com/titaliu1224/Image-Processing/blob/main/Assignment6/result.png](https://github.com/titaliu1224/Image-Processing/blob/main/Assignment6/result.png?raw=true)){: w="650", h="650"}
+![要壓縮的圖片](https://github.com/titaliu1224/Image-Processing/blob/main/Assignment6/result.png?raw=true){: w="650", h="650"}
 
 ## 成果
-![python 跑完後的 cmd 輸出]([https://github.com/titaliu1224/Image-Processing/blob/main/Assignment6/result2.png](https://github.com/titaliu1224/Image-Processing/blob/main/Assignment6/result2.png?raw=true)){: w="500", h="500"}
+![python 跑完後的 cmd 輸出](https://github.com/titaliu1224/Image-Processing/blob/main/Assignment6/result2.png?raw=true){: w="500", h="500"}
 _得到檔案的壓縮率與平均壓縮率_
 
 ## 開發環境
