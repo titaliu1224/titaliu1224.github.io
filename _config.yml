@@ -28,10 +28,10 @@ title: Tita's blog                         # the main title
 tagline: 歡迎來到我家   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  關於一個大學三年級的資訊仔，將資工日常寫成了文章。
+  關於一個大學四年級的資訊仔，將資工日常寫成了文章。
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://titaliu1224.github.io/'
+url: 'https://titaliu1224.github.io'
 
 github:
   username: titaliu1224             # change to your github username
