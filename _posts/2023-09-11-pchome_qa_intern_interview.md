@@ -9,8 +9,6 @@ tags:
 
 categories: [打工仔日常]
 
-math: true
-
 img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
 
@@ -22,7 +20,7 @@ img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 
 在正式進入面試之前，要經過兩道關卡，第一是 Google 表單的申請，第二階段是 HR 的電話面試，刷過兩輪後才會進入實體的團體面試。
 
-### 申請表單
+### 1/ 申請表單
 
 最一開始是在 Facebook 社團 [實習透視鏡的一篇貼文](https://www.facebook.com/groups/internlens/posts/1683716148752238/) 看到這個計畫，計畫中附了一個 Google 表單，表單中要**填寫想進入的部門和一些個人介紹、履歷**。  
 這份表單開放填寫到 4/9 。
@@ -30,7 +28,7 @@ img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 比較特別的是，他的部門是排志願序的，而且技術部和電商部門都混在一起選擇，一開始看到什麼化妝品、食品，我就有點困惑，結果根本和我無關（畢竟不是技術部的職位）。  
 接下來就等待他們的審核。
 
-### 電話面試
+### 2/ 電話面試
 
 初選通過後，會收到 HR 發來的 mail，內容是電話面試的部門和要填寫你可以的電話面試時間。  
 我只收到了一個部門的電話面試邀約，如果有人同時收到過兩個部門以上的邀請可以留言告知我~  
@@ -75,7 +73,7 @@ img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 > 如果今天你是一個團隊的組長，你們只有一個禮拜的時間，要幫一個規格書有 200 頁的網站做測試，你會怎麼規劃？
 
 當時有一位實習生的回答我覺得非常好，他會將緊急程度分級，優先測試較緊急的功能。  
-QA 本來就有一個東西較做 [「測試優先度」](https://ithelp.ithome.com.tw/articles/10288601?sc=iThomeR) ，他在入職前就已經有相關觀念了，真的很厲害。  
+QA 本來就有一個東西叫做 [「測試優先度」](https://ithelp.ithome.com.tw/articles/10288601?sc=iThomeR) ，他在入職前就已經有相關觀念了，真的很厲害。  
 不過這裡不了解也不用灰心，入職之後學長姐和 mentor 都很 nice ，有不懂的都能詢問他們。  
 （當然自己先做好功課、自己解決問題很重要啦）  
 
