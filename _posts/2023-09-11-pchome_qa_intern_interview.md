@@ -6,6 +6,7 @@ tags:
   - quality assurance
   - internship
   - testing
+  - interview
 
 categories: [打工仔日常]
 
