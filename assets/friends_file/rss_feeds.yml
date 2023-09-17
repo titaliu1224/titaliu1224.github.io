@@ -1,0 +1,4 @@
+- name: Ryan's blog
+  feed: ./assets/friends_file/RyanKert.xml
+- name: Liu An-Chi's blog
+  feed: ./assets/friends_file/tigercosmos.xml
