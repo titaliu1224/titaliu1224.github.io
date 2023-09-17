@@ -160,5 +160,5 @@ Records: 0  Duplicates: 0  Warnings: 0
 
 ### Reference
 
-_本篇內容皆來自 [MySQL 與 MariaDB 學習手冊](http://books.gotop.com.tw/o_A440) 與 [W3School](https://www.w3schools.com/mysql/default.asp)_
+_本篇內容皆來自 [MySQL 與 MariaDB 學習手冊](https://www.gotop.com.tw/books/bookdetails.aspx?types=a&bn=A440) 與 [W3School](https://www.w3schools.com/mysql/default.asp)_
 
