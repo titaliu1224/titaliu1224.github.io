@@ -14,17 +14,19 @@ img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
 
 在 2023/7 ~ 2023/8 有幸進入台灣老牌電商 PChome 再次開啟一段 QA 旅程，以下言論皆為個人想法，和公司或實習計畫完全無關喔！  
-這次所待的部門是**技術部的網站系統架構處**（原本叫做服務性可靠工程處）中的**軟體品質工程科**，職位是 **SQA 實習生** (Software Quality Assurance Intern)。  
+這次所待的部門是**技術部的網站系統架構處**（原本叫做服務可靠性工程處）中的**軟體品質工程科**，職位是 **SQA 實習生** (Software Quality Assurance Intern)。  
 順帶一提，我是備取上去的，不是準時收到 offer 。
 
 ## 面試之前
 
 在正式進入面試之前，要經過兩道關卡，第一是 Google 表單的申請，第二階段是 HR 的電話面試，刷過兩輪後才會進入實體的團體面試。
 
+![流程圖](https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/331127152_8815045858568882_859722185588217532_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=4c1e7d&_nc_ohc=zboGpbk758MAX8UFr2B&_nc_ht=scontent-tpe1-1.xx&oh=00_AfAkGZ9D-7oWYyIj7Cdty-qF446Nt2mu5L9PLTXBHxy-Rg&oe=650D5CAA){: w="500"}
+
 ### 1/ 申請表單
 
 最一開始是在 Facebook 社團 [實習透視鏡的一篇貼文](https://www.facebook.com/groups/internlens/posts/1683716148752238/) 看到這個計畫，計畫中附了一個 Google 表單，表單中要**填寫想進入的部門和一些個人介紹、履歷**。  
-這份表單開放填寫到 4/9 。
+這份表單開放填寫到 4/9 。  
 
 比較特別的是，他的部門是排志願序的，而且技術部和電商部門都混在一起選擇，一開始看到什麼化妝品、食品，我就有點困惑，結果根本和我無關（畢竟不是技術部的職位）。  
 接下來就等待他們的審核。
