@@ -10,7 +10,7 @@ tags:
 
 categories: [打工仔日常]
 
-img_path: ../../assets/img/posts/convert_image_to_frequency_domain
+img_path: ../../assets/img/posts/pchome_qa_intern_interview
 ---
 
 在 2023/7 ~ 2023/8 有幸進入台灣老牌電商 PChome 再次開啟一段 QA 旅程，以下言論皆為個人想法，和公司或實習計畫完全無關喔！  
@@ -21,7 +21,7 @@ img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 
 在正式進入面試之前，要經過兩道關卡，第一是 Google 表單的申請，第二階段是 HR 的電話面試，刷過兩輪後才會進入實體的團體面試。
 
-![流程圖](https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/331127152_8815045858568882_859722185588217532_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=4c1e7d&_nc_ohc=zboGpbk758MAX8UFr2B&_nc_ht=scontent-tpe1-1.xx&oh=00_AfAkGZ9D-7oWYyIj7Cdty-qF446Nt2mu5L9PLTXBHxy-Rg&oe=650D5CAA){: w="500"}
+![流程圖](flow_picture.webp){: w="500"}
 
 ### 1/ 申請表單
 
