@@ -3,8 +3,8 @@ title: "影像處理小白（一）：建立滑桿以旋轉圖片、裁切圖片
 date: 2023-03-10 19:30:00 +0800
 
 tags: 
-  - Python
-  - OpenCV
+  - python
+  - opencv
   - image processing
   - rotate image
   - trackbar

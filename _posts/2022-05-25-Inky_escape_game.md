@@ -3,8 +3,8 @@ title: "用 Inky 打造自己的文字遊戲吧"
 date: 2022-07-27 00:45:00 +0800
 
 tags: 
-    - Inky
-    - Ink
+    - inky
+    - ink
     - game
     - web
 

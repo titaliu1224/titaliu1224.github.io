@@ -3,12 +3,12 @@ title: "影像處理小白（二）：影像邊緣偵測"
 date: 2023-03-23 22:30:00 +0800
 
 tags: 
-  - Python
-  - OpenCV
+  - python
+  - opencv
   - image processing
   - edge detection
-  - Sobel operators
-  - Gaussian blur
+  - sobel operators
+  - gaussian blur
   - noise reduction
 
 mermaid: true

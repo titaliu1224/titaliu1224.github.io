@@ -3,10 +3,10 @@ title: "將其他 blog 的文章連結到 Jeykyll blog"
 date: 2022-08-18 09:44 +0800
 
 tags: 
-    - Jekyll
-    - Ruby
-    - RSS
-    - HTML
+    - jekyll
+    - ruby
+    - rss
+    - html
     - web
 
 categories: [日常碎碎唸]

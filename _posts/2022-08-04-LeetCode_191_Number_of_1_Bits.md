@@ -3,9 +3,9 @@ title: "LeetCode: 191. Number of 1 Bits"
 date: 2022-08-04 09:24:00 +0800
 
 tags: 
-    - LeetCode
+    - leetcode
     - bit manipulation
-    - Java
+    - java
 
 categories: [LeetCode, Easy]
 

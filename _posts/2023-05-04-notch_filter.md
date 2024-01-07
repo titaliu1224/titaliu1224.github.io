@@ -3,10 +3,10 @@ title: "影像處理小白（四）：利用頻域圖像消除週期性雜訊"
 date: 2023-05-04 01:30:00 +0800
 
 tags: 
-  - Python
-  - OpenCV
+  - python
+  - opencv
   - image processing
-  - DFT
+  - dft
   - noise reduction
   - frequency domain
   - notch filter

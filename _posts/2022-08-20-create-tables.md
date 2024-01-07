@@ -4,7 +4,7 @@ date: 2022-08-22 04:04:00 +0800
 
 tags: 
     - database
-    - MySQL
+    - mysql
     - web
 
 categories: [資料庫學習日誌]

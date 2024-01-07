@@ -3,10 +3,10 @@ title: "在 PowerShell 中使用 Conda 建立 Python 虛擬環境"
 date: 2022-12-26 09:36:00 +0800
 
 tags: 
-    - Python
+    - python
     - conda
-    - virtual-environment
-    - PowerShell
+    - virtual environment
+    - powershell
     - learning
 
 categories: [Python, 學習日誌]

@@ -3,11 +3,11 @@ title: "影像處理小白（五）：利用 HSV 色域找到膚色區域"
 date: 2023-05-16 18:34:00 +0800
 
 tags: 
-  - Python
-  - OpenCV
+  - python
+  - opencv
   - image processing
   - skin detection
-  - HSV
+  - hsv
 
 categories: [Python, 影像處理]
 

@@ -3,10 +3,10 @@ title: "影像處理小白（六）：Run-Length Encoding 壓縮圖片"
 date: 2023-06-06 22:24:00 +0800
 
 tags: 
-  - Python
-  - OpenCV
+  - python
+  - opencv
   - image processing
-  - RLE
+  - rle
   - compression
 
 categories: [Python, 影像處理]

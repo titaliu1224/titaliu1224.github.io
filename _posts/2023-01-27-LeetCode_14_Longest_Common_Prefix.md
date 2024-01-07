@@ -3,9 +3,9 @@ title: "LeetCode: 14. Longest Common Prefix"
 date: 2023-01-27 05:21:00 +0800
 
 tags: 
-    - LeetCode
+    - leetcode
     - string
-    - C++
+    - c++
 
 math: true
 
