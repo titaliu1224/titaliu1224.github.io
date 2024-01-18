@@ -2,6 +2,6 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: {{site.url}}/sitemap.xml
+Sitemap: https://titaliu1224.github.io/sitemap.xml
 
 Allow: /
