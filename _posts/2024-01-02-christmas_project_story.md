@@ -5,12 +5,13 @@ date: 2024-01-07 01:00:00 +0800
 tags: 
   - web
   - flask
-  - wsgi
-  - waitress
   - python
   - openai
   - ai
+  - genai
+  - gpt
   - game
+  - rpg
   - side project
   - christmas
   - festival
@@ -91,7 +92,7 @@ _每日遊戲開始時的前言_
 這時預定好要 12/11 開始進行一週的宣傳與測試。  
 然而我們約 12/5 才定好全部的劇情。  
 
-劇情的文字使用 csv 檔案進行儲存，技術細節可以參照[下篇](/posts/christmas_project_tech/)。
+劇情的文字使用 csv 檔案進行儲存，技術細節可以參照[下篇](/posts/christmas_project_tech/#後端的運作)。
 
 ### 2/ 前後端各自開發
 
@@ -113,11 +114,12 @@ subgraph frontend
   A(HTML、CSS) <--> B(原生 JavaScript)
 end
 
-frontend <--> C(Nginx) <--> D("Waitress (WSGI)") 
+frontend <--> H(Cloudflare) <--> C(Nginx) <--> D("Waitress (WSGI)") 
 
 subgraph backend
   direction TB
   E("Flask (Python)") <--> F(其它靜態檔案)
+  E <--> G(OpenAI)
 end
 
 D <--> backend

@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: {{site.url}}/sitemap.xml
+
+Allow: /
