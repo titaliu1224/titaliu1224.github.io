@@ -10,6 +10,9 @@ end
 
 # for feeds.rb
 gem 'feed-normalizer'
+gem 'to_slug'
+gem 'sanitize'
+gem 'stringex'
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
