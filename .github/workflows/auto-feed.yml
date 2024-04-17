@@ -92,7 +92,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add ./_friends_link
           git commit -a -m "Automatic add file from workflow" || true
-          git pull
+          git pull --ff-only
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
