@@ -16,7 +16,12 @@ math: true
 img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/04/s1091444-3.html) <br>
+本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程。  
+透過選修課一次次的作業把影像處理的基礎知識建立起來。  
+
+本次作業嘗試將影像透過傅立葉轉換將其從色域轉換至頻域，以便進行其他處理。  
+本篇難度開始提升，沒有跟上進度的可以參照上一篇： [影像處理小白（二）：影像邊緣偵測](/posts/image-edge-detection/)  
+若好奇其他的作業可以參照 [影像處理分類](/categories/影像處理/)
 
 ## 功課要求
 

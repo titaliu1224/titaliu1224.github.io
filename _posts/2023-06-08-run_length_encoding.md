@@ -16,7 +16,12 @@ math: true
 img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/06/s1091444-6.html) <br>
+本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程。  
+透過選修課一次次的作業把影像處理的基礎知識建立起來。  
+
+這次來體驗一下圖片壓縮的原理吧~  
+好奇過往進度的可以查看： [影像處理小白（五）：利用 HSV 色域找到膚色區域](/posts/skin_detection/)  
+或是 [影像處理分類](/categories/影像處理/)
 
 ## 功課要求
 

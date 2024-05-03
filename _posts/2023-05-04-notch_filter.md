@@ -18,7 +18,12 @@ math: true
 img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/05/s1091444-4.html) <br>
+本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程。  
+透過選修課一次次的作業把影像處理的基礎知識建立起來。  
+
+這次作業會將影像轉換至頻域，修復一些重複出現的雜訊。  
+以下方法會用到頻域轉換，可以參照： [影像處理小白（三）：使用 DFT 將影像轉換至頻域](/posts/convert_image_to_frequency_domain/)  
+若好奇其他的作業可以參照 [影像處理分類](/categories/影像處理/)
 
 ## 功課要求
 

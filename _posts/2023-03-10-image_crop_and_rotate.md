@@ -16,9 +16,11 @@ categories: [Python, 影像處理]
 img_path: ../../assets/img/posts/image_crop_and_rotate
 ---
 
-> 本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程 
+本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程。  
+透過選修課一次次的作業把影像處理的基礎知識建立起來。  
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/03/s1091444-1.html) <br>
+這次的作業是入場門票般的練手程度，是簡單的裁剪圖片和旋轉圖片。  
+若好奇其他進階一點的作業歡迎查看 [影像處理分類](/categories/影像處理/)  
 
 ## 功課要求
 撰寫一個程式將一張圖像的 <br>
