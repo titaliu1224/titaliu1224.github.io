@@ -93,6 +93,7 @@ jobs:
           git add ./_friends_link
           git commit -a -m "Automatic add file from workflow" || true
           git pull --ff-only
+          git merge --no-ff
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
