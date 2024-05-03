@@ -1,7 +1,0 @@
-User-agent: *
-
-Disallow: /norobots/
-
-Sitemap: https://titaliu1224.github.io/sitemap.xml
-
-Allow: /

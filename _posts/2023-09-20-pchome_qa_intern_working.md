@@ -7,8 +7,9 @@ tags:
   - internship
   - testing
   - work
+  - pchome
 
-categories: [打工仔日常]
+categories: [打工仔日常, PChome]
 
 img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
