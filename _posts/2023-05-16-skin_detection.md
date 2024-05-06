@@ -20,6 +20,7 @@ img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 透過選修課一次次的作業把影像處理的基礎知識建立起來。  
 
 這次作業終於進入 RGB 圖像的環節，目標是標示出影像中的膚色區域。  
+
 沒有跟上進度的可以參照： [影像處理小白（四）：利用頻域圖像消除週期性雜訊](/posts/notch_filter/)  
 或是 [影像處理分類](/categories/影像處理/)
 

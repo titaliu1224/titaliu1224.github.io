@@ -22,6 +22,7 @@ img_path: ../../assets/img/posts/image_crop_and_rotate
 透過選修課一次次的作業把影像處理的基礎知識建立起來。  
 
 本次作業是將圖片轉換成灰階模式並使用 Sobel operator 繪製一張素描圖。  
+
 入門者可以參照上一篇： [影像處理小白（一）：建立滑桿以旋轉圖片、裁切圖片](/posts/image_crop_and_rotate/)  
 若好奇其他的作業可以參照 [影像處理分類](/categories/影像處理/)
 
