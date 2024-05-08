@@ -16,7 +16,13 @@ math: true
 img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/05/s1091444-5.html) <br>
+本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程。  
+透過選修課一次次的作業把影像處理的基礎知識建立起來。  
+
+這次作業終於進入 RGB 圖像的環節，目標是標示出影像中的膚色區域。  
+
+沒有跟上進度的可以參照： [影像處理小白（四）：利用頻域圖像消除週期性雜訊](/posts/notch_filter/)  
+或是 [影像處理分類](/categories/影像處理/)
 
 ## 功課要求
 
