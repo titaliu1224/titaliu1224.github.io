@@ -95,6 +95,15 @@ const api = axios.create({
 })
 ```
 
+並使用 params 參數將要傳入的參數放入：
+
+```ts
+export const getStaffPhoto = async (range: {
+    start: number,
+    end: number
+}): Promise<StaffPhoto[]> => (await api.get('/staffcontact/photo', {params: range})).data;
+```
+
 如此便完成了前後端的設定，現在再從前端打一次 API 測試看看吧！  
 
 ## 後記
