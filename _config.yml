@@ -49,7 +49,9 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/tita-liu-7a5057224
 
-google_site_verification: ikZm0tvKujXyWPPUukOAKxfh6hMUp41TJipnV-D5yus       # fill in to your verification string
+webmaster_verifications:
+  google: ikZm0tvKujXyWPPUukOAKxfh6hMUp41TJipnV-D5yus       # fill in to your verification string
+  bing: AFB778C5BE1C09184D8DAA6821F24385
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings

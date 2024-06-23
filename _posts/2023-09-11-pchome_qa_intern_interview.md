@@ -7,8 +7,9 @@ tags:
   - internship
   - testing
   - interview
+  - pchome
 
-categories: [打工仔日常]
+categories: [打工仔日常, PChome]
 
 img_path: ../../assets/img/posts/pchome_qa_intern_interview
 ---
@@ -97,7 +98,7 @@ QA 本來就有一個東西叫做 [「測試優先度」](https://ithelp.ithome.
 
 ## 結語
 
-以上就是我在入職之前的旅程啦，當時原本以為太晚決定要暑期實習了會找不到，結果居然還是有個快樂的實習暑假，真的感謝本來就有在 maintain 一份 resume 的我！  
+以上就是我在入職之前的旅程啦，當時原本以為太晚決定要暑期實習了會找不到，結果居然還是有個快樂的實習暑假，真的感謝本來就有在 maintain 一份 resume 的我，才可以及時投遞履歷！  
 感謝閱讀我難得的長文。
 
 這裡我覺得很酷的一個地方是 Dcard 這兩年來都有 PChome 實習計畫的取暖區，[這裡是今年的](https://www.dcard.tw/f/job/p/241640656) 。  
