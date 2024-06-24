@@ -3,12 +3,12 @@ title: "影像處理小白（二）：影像邊緣偵測"
 date: 2023-03-23 22:30:00 +0800
 
 tags: 
-  - Python
-  - OpenCV
+  - python
+  - opencv
   - image processing
   - edge detection
-  - Sobel operators
-  - Gaussian blur
+  - sobel operators
+  - gaussian blur
   - noise reduction
 
 mermaid: true
@@ -18,7 +18,13 @@ categories: [Python, 影像處理]
 img_path: ../../assets/img/posts/image_crop_and_rotate
 ---
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/03/s1091444-2.html) <br>
+本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程。  
+透過選修課一次次的作業把影像處理的基礎知識建立起來。  
+
+本次作業是將圖片轉換成灰階模式並使用 Sobel operator 繪製一張素描圖。  
+
+入門者可以參照上一篇： [影像處理小白（一）：建立滑桿以旋轉圖片、裁切圖片](/posts/image_crop_and_rotate/)  
+若好奇其他的作業可以參照 [影像處理分類](/categories/影像處理/)
 
 ## 功課要求
 撰寫一個程式，以灰階模式讀取一張圖像  `imread(path, IMREAD_GRAYSCALE)`

@@ -3,13 +3,41 @@ on:
   schedule: # Run workflow automatically
     - cron: '0 * * * *' # Runs every hour, on the hour
   workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
-
+  workflow_run:
+    workflows: [Build and Deploy]
+    types:
+      - complted
 jobs:   
+  delete-old-rss-files:
+    name: delete all friends feed files 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+      - name: Delete files
+        run:
+          rm -rf assets/friends_file/*.xml
+      - name: Commit files
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -a -m "Automatic delete rss files from workflow" || true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.PERSONAL_TOKEN }}
+          branch: ${{ github.ref }}
+  
   download-feed-file-automatically:
+    needs: delete-old-rss-files
     name: Update this feed files for friends
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Check deleted files
+        run: ls -al assets/friends_file
       - uses: wow-actions/download-upload@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -22,6 +50,21 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           url: "https://blog.ryankert.cc/atom.xml"
           dir: assets/friends_file/
+          filename: RyanKert.xml
+          
+      - uses: suisei-cn/actions-download-file@v1.3.0
+        id: downloadfile  # Remember to give an ID if you need the output filename
+        name: Download tigercosmos.xml
+        with:
+          url: "https://tigercosmos.xyz/atom.xml"
+          target: assets/friends_file/
+          filename: tigercosmos.xml
+          
+      - uses: suisei-cn/actions-download-file@v1.3.0
+        name: Download RyanKert.xml
+        with:
+          url: "https://blog.ryankert.cc/atom.xml"
+          target: assets/friends_file/
           filename: RyanKert.xml
           
   generate-md-file-for-rss:
@@ -48,11 +91,12 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add ./_friends_link
+          git pull --ff-only
+          git merge --no-ff
           git commit -a -m "Automatic add file from workflow" || true
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.PERSONAL_TOKEN }}
           branch: ${{ github.ref }}
-          force: true
         

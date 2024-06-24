@@ -4,7 +4,7 @@ date: 2022-08-17 03:22:00 +0800
 
 tags: 
     - database
-    - MySQL
+    - mysql
     - web
 
 categories: [資料庫學習日誌]
@@ -305,4 +305,4 @@ MySQL [test]> SELECT book_id, title, status_name
 ```
 
 ### Reference
-_本篇內容皆來自 [MySQL 與 MariaDB 學習手冊](http://books.gotop.com.tw/o_A440)_
+_本篇內容皆來自 [MySQL 與 MariaDB 學習手冊](https://www.gotop.com.tw/books/bookdetails.aspx?types=a&bn=A440)_

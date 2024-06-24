@@ -3,10 +3,10 @@ title: "影像處理小白（四）：利用頻域圖像消除週期性雜訊"
 date: 2023-05-04 01:30:00 +0800
 
 tags: 
-  - Python
-  - OpenCV
+  - python
+  - opencv
   - image processing
-  - DFT
+  - dft
   - noise reduction
   - frequency domain
   - notch filter
@@ -18,7 +18,13 @@ math: true
 img_path: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
 
-這是學校選修課的功課紀錄，同步發布於 [該課程 Blogger](https://yzucs362hw.blogspot.com/2023/05/s1091444-4.html) <br>
+本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程。  
+透過選修課一次次的作業把影像處理的基礎知識建立起來。  
+
+這次作業會將影像轉換至頻域，修復一些重複出現的雜訊。  
+
+以下方法會用到頻域轉換，可以參照： [影像處理小白（三）：使用 DFT 將影像轉換至頻域](/posts/convert_image_to_frequency_domain/)  
+若好奇其他的作業可以參照 [影像處理分類](/categories/影像處理/)
 
 ## 功課要求
 
@@ -102,39 +108,26 @@ planes[1] = planes[1] * notch_points_img
 dftB = cv2.merge(planes)
 ```
 
-### 5/ 反向 DFT
+### 5/ 利用反向 DFT 還原圖片
 
-
-
-### 6/ 還原圖片
-
-最後使用 DFT 得出的 `dft_A` 來還原圖片，使用 `cv2.idft()` 做反向的傅立葉轉換， `cv2.split()` 與 `cv2.magnitude()` 取得轉換後的影像， normalize 後就能以 unsigned 8 bits 的方式輸出灰階影像。
+最後使用 `cv2.idft()` 還原圖像，由於前面已經把刪除好雜訊的 dftB 做出來了，所以這邊只要還原就能得到去除雜訊後的圖像。
 
 ```py
-# get inverse dft
-cv2.idft(dft_A, dft_A)
-cv2.split(dft_A, planes)
-# get inverse image
+# inverse dft_B
+cv2.idft(dftB, dftB)
+cv2.split(dftB, planes)
+# get magnitude
 inverse_img = cv2.magnitude(planes[0], planes[1])
 # normalize to 0~255
 cv2.normalize(inverse_img, inverse_img, 0, 255, cv2.NORM_MINMAX)
 # convert to 8 bit unsigned integer
 inverse_img = inverse_img.astype(np.uint8)
-# show inverse image
-plt.subplot(2, 2, 4)
-plt.imshow(inverse_img, cmap='gray')
-plt.title("Inverse Image")
-plt.axis("off")
-
-plt.show()
 ```
 
 ## 總結
 
-DFT 能將影像從時域轉至頻域，可以用來找出影像中週期性出現的雜訊。
+將影像轉換至頻域後，透過觀察可以消除一些週期性出現的亮點，從而消除週期性雜訊。
 
 ## 參考資料
 
-- [【沒錢ps,我用OpenCV!】Day 14 - 進階修圖1，運用 OpenCV 顯示圖片直方圖、分離與合併RGB通道 show histogram, split, merge RGB channel](https://ithelp.ithome.com.tw/articles/10244284)
-- [Opencv 例程講解7 ---- DFT圖像傅立葉變換](https://www.twblogs.net/a/5b83abae2b71777a2efcdd07)
-- [圖解傅立葉分析](https://hackmd.io/@sysprog/fourier-transform?utm_source=pocket_saves)
+- [Periodic Noise Removing Filter](https://docs.opencv.org/4.x/d2/d0b/tutorial_periodic_noise_removing_filter.html)

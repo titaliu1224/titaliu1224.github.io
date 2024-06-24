@@ -14,10 +14,7 @@ baseurl: ''
 # otherwise, the layout language will use the default value of 'en'.
 lang: en
 
-# Additional parameters for datetime localization, optional. › https://github.com/iamkun/dayjs/tree/dev/src/locale
-prefer_datetime_locale: zh-tw
-
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Taipei
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
@@ -25,13 +22,13 @@ timezone: Asia/Taipei
 
 title: Tita's blog                         # the main title
 
-tagline: 歡迎來到我家   # it will display as the sub-title
+tagline: 死線戰士的日常總是這麼樸實無華且刺激   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  關於一個大學三年級的資訊仔，將資工日常寫成了文章。
+  關於一個大學四年級的資訊仔，將資工日常寫成了文章。
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://titaliu1224.github.io/'
+url: 'https://titaliu1224.github.io'
 
 github:
   username: titaliu1224             # change to your github username
@@ -52,18 +49,15 @@ social:
     # - https://www.facebook.com/username
     - https://www.linkedin.com/in/tita-liu-7a5057224
 
-google_site_verification: ikZm0tvKujXyWPPUukOAKxfh6hMUp41TJipnV-D5yus       # fill in to your verification string
+webmaster_verifications:
+  google: ikZm0tvKujXyWPPUukOAKxfh6hMUp41TJipnV-D5yus       # fill in to your verification string
+  bing: AFB778C5BE1C09184D8DAA6821F24385
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
   id: G-VNY4CK35F9     # fill in your Google Analytics ID
-  # Google Analytics pageviews report settings
-  pv:
-    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
-    cache_path:       # the local PV cache data, friendly to visitors from GFW region
-
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
@@ -183,13 +177,14 @@ compress_html:
     envs: [development]
 
 exclude:
-  - '*.gem'
-  - '*.gemspec'
+  - "*.gem"
+  - "*.gemspec"
+  - docs
   - tools
   - README.md
+  - CHANGELOG.md
   - LICENSE
-  - gulpfile.js
-  - node_modules
+  - rollup.config.js
   - package*.json
 
 jekyll-archives:

@@ -3,8 +3,8 @@ title: "用 Inky 打造自己的文字遊戲吧"
 date: 2022-07-27 00:45:00 +0800
 
 tags: 
-    - Inky
-    - Ink
+    - inky
+    - ink
     - game
     - web
 
@@ -15,8 +15,8 @@ img_path: ../../assets/img/posts/Inky_escape_game
 
 前些日子找出上學期完成一半的密室逃脫，花了幾天把它完成。它是半小時內就能破關的小遊戲，可以前往[我的 github page](https://titaliu1224.github.io/escape-game/)來玩。
 
-> 以下會有劇情暴雷，請斟酌閱讀
-{: .prompt-warning}
+> 以下幾乎沒有劇情暴雷，可以放心閱讀
+{: .prompt-info}
 
 ## Ink 簡介
 在開始之前，可以到[該專案的 github 頁面](https://github.com/titaliu1224/escape-game)來查看我的 code。<br>

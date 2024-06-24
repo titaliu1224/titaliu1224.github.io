@@ -4,7 +4,7 @@ date: 2022-04-22 05:05:00 +0800
 
 tags: 
     - movie
-    - AI
+    - ai
     - thoughts
 
 categories: [日常碎碎唸]

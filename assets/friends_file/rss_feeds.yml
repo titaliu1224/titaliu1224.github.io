@@ -1,7 +1,3 @@
-- name: Tita's Medium
-  feed: ./assets/friends_file/TitaLiu.xml
-- name: Astra's Medium
-  feed: ./assets/friends_file/AmuAstra.xml
 - name: Ryan's blog
   feed: ./assets/friends_file/RyanKert.xml
 - name: Liu An-Chi's blog
