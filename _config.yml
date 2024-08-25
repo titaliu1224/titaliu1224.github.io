@@ -16,11 +16,10 @@ timezone: Asia/Taipei
 
 title: Tita's blog                         # the main title
 
-tagline: 死線戰士的日常總是這麼樸實無華且刺激   # it will display as the sub-title
+tagline: 昆蟲溝通師   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  關於一個大學四年級的資訊仔，將資工日常寫成了文章。
-
+  剛出社會的軟體工程師新鮮人（肝），分享在學習日常中遇到的大小難題與心得。
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: 'https://titaliu1224.github.io'
@@ -118,7 +117,7 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: titaliu1224/titaliu1224.github.io    # <gh-username>/<repo>
-    repo_id: R_kgDOHM7PkA   
+    repo_id: R_kgDOHM7PkA
     category: Announcements
     category_id: DIC_kwDOHM7PkM4CQclO
     mapping:          # optional, default to 'pathname'

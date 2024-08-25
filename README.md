@@ -23,3 +23,10 @@
 
 ## 指令
 使用 `bundle exec jekyll s` 在本地端測試
+
+## Environment
+[Download ruby here](https://rubyinstaller.org/downloads/)
+
+```
+bundle
+```
