@@ -15,7 +15,7 @@ categories: [Python, 影像處理]
 
 math: true
 
-img_path: ../../assets/img/posts/convert_image_to_frequency_domain
+media_subpath: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
 
 本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程。  

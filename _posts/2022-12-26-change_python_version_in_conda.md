@@ -11,7 +11,7 @@ tags:
 
 categories: [Python, 學習日誌]
 
-img_path: ../../assets/img/posts/change_python_version_in_conda
+media_subpath: ../../assets/img/posts/change_python_version_in_conda
 ---
 
 最近終於想要告別 Python 小白的身分，來好好的學學 machine learning 的部分（過了一學期依舊是一個沒用的專題仔），所以才在試著使用 conda。 <br>

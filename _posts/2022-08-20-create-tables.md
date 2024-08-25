@@ -9,7 +9,7 @@ tags:
 
 categories: [資料庫學習日誌]
 
-img_path: ../../assets/img/posts/
+media_subpath: ../../assets/img/posts/
 ---
 
 [上次](/posts/create_a_new_table_in_MySQL/)我們學會如何建立資料庫與資料表並插入一些資料，這次將更深入了解資料表如何操作。

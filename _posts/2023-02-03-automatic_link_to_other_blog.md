@@ -15,7 +15,7 @@ render_with_liquid: false
 
 categories: [日常碎碎唸]
 
-img_path: ../../assets/img/posts/14_Longest_Common_Prefix
+media_subpath: ../../assets/img/posts/14_Longest_Common_Prefix
 ---
 
 在上篇 [將其他 blog 的文章連結到 Jeykyll blog](/posts/link_to_other_blog) 使用了手動的方式下載 RSS 檔案，並在本地端執行完 `feeds.rb`{: .filepath} 後再 push 到 Github 上。 <br>

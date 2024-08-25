@@ -11,7 +11,7 @@ tags:
 
 categories: [打工仔日常, PChome]
 
-img_path: ../../assets/img/posts/convert_image_to_frequency_domain
+media_subpath: ../../assets/img/posts/convert_image_to_frequency_domain
 ---
 
 在前一篇 [我是怎麼在 PChome 當一個 SQA 暑期實習仔的？（面試篇）](/posts/pchome_qa_intern_interview/) 介紹了我在進入實習前的經驗，這一篇將會介紹我在 PChome 實習的這兩個月的經驗與感想。  

@@ -11,7 +11,7 @@ math: true
 
 categories: [LeetCode, Easy]
 
-img_path: ../../assets/img/posts/14_Longest_Common_Prefix
+media_subpath: ../../assets/img/posts/14_Longest_Common_Prefix
 ---
 
 好久沒有寫 code 了，趁年節期間回憶一下 C++，結果一路上我各種忘記宣告、分號，看來是 Python 中毒了

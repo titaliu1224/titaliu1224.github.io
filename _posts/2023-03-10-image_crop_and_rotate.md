@@ -13,7 +13,7 @@ mermaid: true
 
 categories: [Python, 影像處理]
 
-img_path: ../../assets/img/posts/image_crop_and_rotate
+media_subpath: ../../assets/img/posts/image_crop_and_rotate
 ---
 
 本系列將紀錄影像處理小白從 0 開始學習 Python x OpenCV 的過程。  

@@ -11,7 +11,7 @@ tags:
 
 categories: [打工仔日常, PChome]
 
-img_path: ../../assets/img/posts/pchome_qa_intern_interview
+media_subpath: ../../assets/img/posts/pchome_qa_intern_interview
 ---
 
 在 2023/7 ~ 2023/8 有幸進入台灣老牌電商 PChome 再次開啟一段 QA 旅程，以下言論皆為個人想法，和公司或實習計畫完全無關喔！  

@@ -10,7 +10,7 @@ tags:
 
 categories: [Projects, 休閒]
 
-img_path: ../../assets/img/posts/Inky_escape_game
+media_subpath: ../../assets/img/posts/Inky_escape_game
 ---
 
 前些日子找出上學期完成一半的密室逃脫，花了幾天把它完成。它是半小時內就能破關的小遊戲，可以前往[我的 github page](https://titaliu1224.github.io/escape-game/)來玩。

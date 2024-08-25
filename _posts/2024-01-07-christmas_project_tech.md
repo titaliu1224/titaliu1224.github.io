@@ -20,7 +20,7 @@ tags:
 
 categories: [web 網頁開發]
 
-img_path: ../../assets/img/posts/christmas_project
+media_subpath: ../../assets/img/posts/christmas_project
 mermaid: true
 ---
 
