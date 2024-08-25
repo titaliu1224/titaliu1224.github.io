@@ -9,7 +9,7 @@ tags:
 
 categories: [資料庫學習日誌]
 
-img_path: ../../assets/img/posts/
+media_subpath: ../../assets/img/posts/
 ---
 
 [上一次](/posts/create-tables/)介紹了特殊的 key 和 VARCHAR 這個資料結構，並用其建立了 table，這次將來插入資料。

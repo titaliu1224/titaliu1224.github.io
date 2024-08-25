@@ -10,7 +10,7 @@ tags:
 
 categories: [web 網頁開發]
 
-img_path: ../../assets/img/posts/christmas_project
+media_subpath: ../../assets/img/posts/christmas_project
 ---
 
 在使用 .NET 作為後端 server end point 時， web API 有時需要接收從前端傳過來的資料。  

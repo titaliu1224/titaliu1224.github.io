@@ -11,7 +11,7 @@ tags:
 
 categories: [打工仔日常, 鈦坦科技]
 
-img_path: ../../assets/img/posts/titansoft-pd-intern-interview
+media_subpath: ../../assets/img/posts/titansoft-pd-intern-interview
 mermaid: true
 ---
 

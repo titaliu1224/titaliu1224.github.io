@@ -9,7 +9,7 @@ tags:
 
 categories: [LeetCode, Easy]
 
-img_path: ../../assets/img/posts/191_Number_of_1_Bits
+media_subpath: ../../assets/img/posts/191_Number_of_1_Bits
 ---
 
 剛開始學 Java，當然是要來寫 easy 題啊！

@@ -9,7 +9,7 @@ tags:
 
 categories: [資料庫學習日誌]
 
-img_path: ../../assets/img/posts/
+media_subpath: ../../assets/img/posts/
 ---
 本系列將以流水帳形式記錄我用到的指令和走過的軌跡，順便當小鐵人賽XD <br>
 我將會以一個純資料庫新手的角度說說我學到的東西，若有錯誤歡迎指正。以下是我使用的工具：

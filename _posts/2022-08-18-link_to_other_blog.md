@@ -11,7 +11,7 @@ tags:
 
 categories: [日常碎碎唸]
 
-img_path: ../../assets/img/posts/
+media_subpath: ../../assets/img/posts/
 ---
 
 一直都很想要把 medium 的一些舊文章和朋友的文章引用進自己的 blog，這樣就能在我沒有更新的時候這裡也能有新文章出現，~~也就是說我要偷懶的意思~~。<br>
