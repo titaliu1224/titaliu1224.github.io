@@ -59,7 +59,7 @@ jobs:
           dir: assets/friends_file/
           filename: Jane.xml
           
-      - uses: suisei-cn/actions-download-file@v1.3.0
+      - uses: suisei-cn/actions-download-file@v1.6.0
         id: downloadfile  # Remember to give an ID if you need the output filename
         name: Download tigercosmos.xml
         with:
@@ -67,19 +67,16 @@ jobs:
           target: assets/friends_file/
           filename: tigercosmos.xml
           
-      - uses: suisei-cn/actions-download-file@v1.3.0
+      - uses: suisei-cn/actions-download-file@v1.6.0
         name: Download RyanKert.xml
         with:
           url: "https://blog.ryankert.cc/atom.xml"
           target: assets/friends_file/
           filename: RyanKert.xml
           
-      - uses: suisei-cn/actions-download-file@v1.3.0
-        name: Download RyanKert.xml
-        with:
-          url: "https://medium.com/feed/@j900701"
-          target: assets/friends_file/
-          filename: Jane.xml
+      - name: Download Jane.xml
+        run: |
+            curl -L https://medium.com/feed/@j900701 -o Jane.xml
           
   generate-md-file-for-rss:
     needs: download-feed-file-automatically
