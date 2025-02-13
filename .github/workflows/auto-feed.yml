@@ -76,8 +76,10 @@ jobs:
           
       - name: Download Jane.xml
         run: |
-            curl -L https://medium.com/feed/@j900701 -o Jane.xml
-          
+          curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+               -H "Referer: https://medium.com" \
+               "https://medium.com/feed/@j900701"  
+  
   generate-md-file-for-rss:
     needs: download-feed-file-automatically
     name: transfer rss to markdown
