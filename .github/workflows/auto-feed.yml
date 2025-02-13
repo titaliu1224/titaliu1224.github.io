@@ -52,6 +52,13 @@ jobs:
           dir: assets/friends_file/
           filename: RyanKert.xml
           
+      - uses: wow-actions/download-upload@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          url: "https://medium.com/feed/@j900701"
+          dir: assets/friends_file/
+          filename: Jane.xml
+          
       - uses: suisei-cn/actions-download-file@v1.3.0
         id: downloadfile  # Remember to give an ID if you need the output filename
         name: Download tigercosmos.xml
@@ -66,6 +73,13 @@ jobs:
           url: "https://blog.ryankert.cc/atom.xml"
           target: assets/friends_file/
           filename: RyanKert.xml
+          
+      - uses: suisei-cn/actions-download-file@v1.3.0
+        name: Download RyanKert.xml
+        with:
+          url: "https://medium.com/feed/@j900701"
+          target: assets/friends_file/
+          filename: Jane.xml
           
   generate-md-file-for-rss:
     needs: download-feed-file-automatically
