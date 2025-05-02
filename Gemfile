@@ -15,6 +15,8 @@ gem 'yaml', '~> 0.4.0'
 gem 'sanitize', '~> 6.1', '>= 6.1.3'
 gem 'stringex', '~> 2.8', '>= 2.8.6'
 
+gem 'wdm', '>= 0.1.0'
+
 group :test do
   gem "html-proofer", "~> 5.0"
 end
