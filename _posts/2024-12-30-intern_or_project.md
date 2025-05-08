@@ -24,6 +24,8 @@ media_subpath: ../../assets/img/posts/titansoft-pd-intern-interview
 （反正影片沒有畫面，size 很奇怪就算了）
 {% include embed/youtube.html id='pGbwQUTNC0k' %}
 
+***
+
 
 ## 先說背景
 
