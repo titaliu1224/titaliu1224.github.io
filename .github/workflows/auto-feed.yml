@@ -6,7 +6,7 @@ on:
   workflow_run:
     workflows: [Build and Deploy]
     types:
-      - complted
+      - completed
 jobs:   
   delete-old-rss-files:
     name: delete all friends feed files 

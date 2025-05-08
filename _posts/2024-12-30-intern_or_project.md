@@ -18,6 +18,13 @@ media_subpath: ../../assets/img/posts/titansoft-pd-intern-interview
 在這之間究竟要怎麼選擇才好？如果我沒有順利找到教授，那會是地獄的開端嗎？  
 本文會以個人角度說說自己的經驗談，希望能為學弟妹帶來一些參考價值。  
 
+## 本文 Podcast
+
+歡迎參照 podcast 來聽文章內容！  
+（反正影片沒有畫面，size 很奇怪就算了）
+{% include embed/youtube.html id='pGbwQUTNC0k' %}
+
+
 ## 先說背景
 
 我是 2024 準時大四畢業的學生，本人讀書不太行但喜歡實作，系排大約是後 1/3（但也敢說我的實作能力在系上是前 1/3）。  
