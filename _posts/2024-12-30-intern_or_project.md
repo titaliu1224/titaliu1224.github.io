@@ -6,7 +6,7 @@ tags:
   - product developer
   - internship
   - Research and Development
-  - school life
+  - school
   - graduation project
 
 categories: [日常碎碎唸]
