@@ -13,7 +13,7 @@ tags:
 
 mermaid: true
 
-categories: [Python, 影像處理]
+categories: [小白學習日誌, Python 影像處理]
 
 media_subpath: ../../assets/img/posts/image_crop_and_rotate
 ---

@@ -1,5 +1,5 @@
 ---
-title: "客製化 PowerShell！讓你的終端變得好看又好用"
+title: "客製化 PowerShell！讓終端變得好看又好用"
 date: 2025-06-21 23:41:00 +0800
 
 tags:

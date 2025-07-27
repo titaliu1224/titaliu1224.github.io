@@ -7,7 +7,7 @@ tags:
     - mysql
     - web
 
-categories: [資料庫學習日誌]
+categories: [小白學習日誌, 資料庫]
 
 media_subpath: ../../assets/img/posts/
 ---

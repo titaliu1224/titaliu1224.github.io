@@ -9,7 +9,7 @@ tags:
   - rle
   - compression
 
-categories: [Python, 影像處理]
+categories: [小白學習日誌, Python 影像處理]
 
 math: true
 
