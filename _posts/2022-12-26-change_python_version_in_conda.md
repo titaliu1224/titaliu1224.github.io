@@ -7,7 +7,6 @@ tags:
     - conda
     - virtual environment
     - powershell
-    - learning
 
 categories: [小白學習日誌, Python 學習日誌]
 

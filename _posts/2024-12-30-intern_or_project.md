@@ -8,6 +8,7 @@ tags:
   - Research and Development
   - school
   - graduation project
+  - work
 
 categories: [日常碎碎唸]
 
