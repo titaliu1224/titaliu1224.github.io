@@ -6,7 +6,7 @@
   <link href="https://tigercosmos.xyz/atom.xml" rel="self"/>
   
   <link href="https://tigercosmos.xyz/"/>
-  <updated>2025-10-01T10:40:32.917Z</updated>
+  <updated>2025-10-23T06:38:24.262Z</updated>
   <id>https://tigercosmos.xyz/</id>
   
   <author>
@@ -17,11 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2025 秋季日本與台灣中階軟體工程師求職經驗分享</title>
+    <link href="https://tigercosmos.xyz/post/2025/10/japan/find-swe-job-in-japan-2025/"/>
+    <id>https://tigercosmos.xyz/post/2025/10/japan/find-swe-job-in-japan-2025/</id>
+    <published>2025-10-20T17:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.262Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;概要&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#概要&quot;&gt;¶ &lt;/a&gt;概要&lt;/h2&gt;
+&lt;p&gt;今年（2025）二月開始兼職創業，五月底從 Mujin 離職全職搞創業，接著九月中宣告創業失敗，於是開始了 2025</summary>
+        
+      
+    
+    
+    
+    
+    <category term="工作" scheme="https://tigercosmos.xyz/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="軟體工程師" scheme="https://tigercosmos.xyz/tags/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB/"/>
+    
+    <category term="日本" scheme="https://tigercosmos.xyz/tags/%E6%97%A5%E6%9C%AC/"/>
+    
+    <category term="台灣" scheme="https://tigercosmos.xyz/tags/%E5%8F%B0%E7%81%A3/"/>
+    
+    <category term="T2" scheme="https://tigercosmos.xyz/tags/t2/"/>
+    
+  </entry>
+  
+  <entry>
     <title>3D Pointcloud Projection on 2D Image in C++</title>
     <link href="https://tigercosmos.xyz/post/2025/10/cv/3d-pointcloud-project-to-2d-image/"/>
     <id>https://tigercosmos.xyz/post/2025/10/cv/3d-pointcloud-project-to-2d-image/</id>
     <published>2025-10-01T12:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.917Z</updated>
+    <updated>2025-10-23T06:38:24.259Z</updated>
     
     
       
@@ -52,11 +84,38 @@
   </entry>
   
   <entry>
+    <title>《賈伯斯傳》讀後隨筆</title>
+    <link href="https://tigercosmos.xyz/post/2025/09/book-report/steve-jobs/"/>
+    <id>https://tigercosmos.xyz/post/2025/09/book-report/steve-jobs/</id>
+    <published>2025-09-18T10:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.256Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;賈伯斯是誰應該不用介紹了吧，他是 Apple 創辦人，主導 iMac、iPod、iPhone、iPad</summary>
+        
+      
+    
+    
+    
+    
+    <category term="讀書心得" scheme="https://tigercosmos.xyz/tags/%E8%AE%80%E6%9B%B8%E5%BF%83%E5%BE%97/"/>
+    
+    <category term="賈伯斯" scheme="https://tigercosmos.xyz/tags/%E8%B3%88%E4%BC%AF%E6%96%AF/"/>
+    
+    <category term="賈伯斯傳" scheme="https://tigercosmos.xyz/tags/%E8%B3%88%E4%BC%AF%E6%96%AF%E5%82%B3/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Shopify Pricing 踩雷紀錄：Managed Pricing &amp; Manual Pricing 那邊設定？</title>
     <link href="https://tigercosmos.xyz/post/2025/09/shopify/pricing-method/"/>
     <id>https://tigercosmos.xyz/post/2025/09/shopify/pricing-method/</id>
     <published>2025-09-17T10:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.923Z</updated>
+    <updated>2025-10-23T06:38:24.265Z</updated>
     
     
       
@@ -87,7 +146,7 @@
     <link href="https://tigercosmos.xyz/post/2025/08/startup/datra-1/"/>
     <id>https://tigercosmos.xyz/post/2025/08/startup/datra-1/</id>
     <published>2025-08-30T16:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.924Z</updated>
+    <updated>2025-10-23T06:38:24.266Z</updated>
     
     
       
@@ -118,7 +177,7 @@
     <link href="https://tigercosmos.xyz/post/2025/06/software-engineer/software-engineer-grow-up-4/"/>
     <id>https://tigercosmos.xyz/post/2025/06/software-engineer/software-engineer-grow-up-4/</id>
     <published>2025-06-25T13:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.924Z</updated>
+    <updated>2025-10-23T06:38:24.266Z</updated>
     
     
       
@@ -154,7 +213,7 @@
     <link href="https://tigercosmos.xyz/post/2025/05/beyond-just-coding-book/writing-experience/"/>
     <id>https://tigercosmos.xyz/post/2025/05/beyond-just-coding-book/writing-experience/</id>
     <published>2025-05-02T04:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.913Z</updated>
+    <updated>2025-10-23T06:38:24.256Z</updated>
     
     
       
@@ -188,7 +247,7 @@
     <link href="https://tigercosmos.xyz/post/2025/02/algorithm/bts-tree-delete/"/>
     <id>https://tigercosmos.xyz/post/2025/02/algorithm/bts-tree-delete/</id>
     <published>2025-02-04T17:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.909Z</updated>
+    <updated>2025-10-23T06:38:24.251Z</updated>
     
     
       
@@ -220,7 +279,7 @@
     <link href="https://tigercosmos.xyz/post/2025/01/beyond-just-coding-book/tcpdump/"/>
     <id>https://tigercosmos.xyz/post/2025/01/beyond-just-coding-book/tcpdump/</id>
     <published>2025-01-02T16:30:00.000Z</published>
-    <updated>2025-10-01T10:40:32.913Z</updated>
+    <updated>2025-10-23T06:38:24.255Z</updated>
     
     
       
@@ -250,7 +309,7 @@
     <link href="https://tigercosmos.xyz/post/2025/01/book-report/morris-chang-1964-2018/"/>
     <id>https://tigercosmos.xyz/post/2025/01/book-report/morris-chang-1964-2018/</id>
     <published>2025-01-01T10:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.913Z</updated>
+    <updated>2025-10-23T06:38:24.256Z</updated>
     
     
       
@@ -280,7 +339,7 @@
     <link href="https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/newcomer/"/>
     <id>https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/newcomer/</id>
     <published>2024-12-27T17:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.913Z</updated>
+    <updated>2025-10-23T06:38:24.255Z</updated>
     
     
       
@@ -310,7 +369,7 @@
     <link href="https://tigercosmos.xyz/post/2024/12/c++/hash/"/>
     <id>https://tigercosmos.xyz/post/2024/12/c++/hash/</id>
     <published>2024-12-26T17:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.916Z</updated>
+    <updated>2025-10-23T06:38:24.258Z</updated>
     
     
       
@@ -341,7 +400,7 @@
     <link href="https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/vim/"/>
     <id>https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/vim/</id>
     <published>2024-12-25T17:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.913Z</updated>
+    <updated>2025-10-23T06:38:24.256Z</updated>
     
     
       
@@ -375,7 +434,7 @@
     <link href="https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/preface/"/>
     <id>https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/preface/</id>
     <published>2024-12-24T17:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.913Z</updated>
+    <updated>2025-10-23T06:38:24.255Z</updated>
     
     
       
@@ -405,7 +464,7 @@
     <link href="https://tigercosmos.xyz/post/2024/11/c++/std-string-advanced/"/>
     <id>https://tigercosmos.xyz/post/2024/11/c++/std-string-advanced/</id>
     <published>2024-11-20T18:01:00.000Z</published>
-    <updated>2025-10-01T10:40:32.916Z</updated>
+    <updated>2025-10-23T06:38:24.259Z</updated>
     
     
       
@@ -430,7 +489,7 @@
     <link href="https://tigercosmos.xyz/post/2024/10/travel/china-travel-document-usage/"/>
     <id>https://tigercosmos.xyz/post/2024/10/travel/china-travel-document-usage/</id>
     <published>2024-10-18T15:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.925Z</updated>
+    <updated>2025-10-23T06:38:24.268Z</updated>
     
     
       
@@ -459,7 +518,7 @@
     <link href="https://tigercosmos.xyz/post/2024/09/software-engineer/software-engineer-grow-up-3/"/>
     <id>https://tigercosmos.xyz/post/2024/09/software-engineer/software-engineer-grow-up-3/</id>
     <published>2024-09-28T20:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.924Z</updated>
+    <updated>2025-10-23T06:38:24.266Z</updated>
     
     
       
@@ -476,11 +535,11 @@
     
     <category term="工作" scheme="https://tigercosmos.xyz/tags/%E5%B7%A5%E4%BD%9C/"/>
     
+    <category term="開源" scheme="https://tigercosmos.xyz/tags/%E9%96%8B%E6%BA%90/"/>
+    
     <category term="軟體工程師" scheme="https://tigercosmos.xyz/tags/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB/"/>
     
     <category term="software engineer" scheme="https://tigercosmos.xyz/tags/software-engineer/"/>
-    
-    <category term="開源" scheme="https://tigercosmos.xyz/tags/%E9%96%8B%E6%BA%90/"/>
     
     <category term="日本" scheme="https://tigercosmos.xyz/tags/%E6%97%A5%E6%9C%AC/"/>
     
@@ -497,7 +556,7 @@
     <link href="https://tigercosmos.xyz/post/2024/09/software-engineer/apply-china-travel-document/"/>
     <id>https://tigercosmos.xyz/post/2024/09/software-engineer/apply-china-travel-document/</id>
     <published>2024-09-28T00:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.923Z</updated>
+    <updated>2025-10-23T06:38:24.266Z</updated>
     
     
       
@@ -522,7 +581,7 @@
     <link href="https://tigercosmos.xyz/post/2024/03/security/facebook-hack/"/>
     <id>https://tigercosmos.xyz/post/2024/03/security/facebook-hack/</id>
     <published>2024-03-01T16:03:00.000Z</published>
-    <updated>2025-10-01T10:40:32.923Z</updated>
+    <updated>2025-10-23T06:38:24.265Z</updated>
     
     
       
@@ -549,7 +608,7 @@
     <link href="https://tigercosmos.xyz/post/2023/12/japan/learn-japanese-n4/"/>
     <id>https://tigercosmos.xyz/post/2023/12/japan/learn-japanese-n4/</id>
     <published>2023-12-13T15:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.919Z</updated>
+    <updated>2025-10-23T06:38:24.262Z</updated>
     
     
       
@@ -571,69 +630,6 @@
     <category term="JLPT" scheme="https://tigercosmos.xyz/tags/jlpt/"/>
     
     <category term="語言學習" scheme="https://tigercosmos.xyz/tags/%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>在 PyCon APAC 2023 貢獻了第一支 CPython Pull Request</title>
-    <link href="https://tigercosmos.xyz/post/2023/11/python/2023pycon-apac-sprint/"/>
-    <id>https://tigercosmos.xyz/post/2023/11/python/2023pycon-apac-sprint/</id>
-    <published>2023-11-26T16:03:00.000Z</published>
-    <updated>2025-10-01T10:40:32.923Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;不久前參加了 PyCon APAC 2023，今年剛好辦在東京，而且會場就在我家不遠處，我甚至第一天是騎腳踏車去參加。&lt;/p&gt;
-&lt;p&gt;前兩天就是議程和到處找人聊天，這邊就不多做介紹了。&lt;/p&gt;
-&lt;p&gt;第三天有個</summary>
-        
-      
-    
-    
-    
-    
-    <category term="python" scheme="https://tigercosmos.xyz/tags/python/"/>
-    
-    <category term="CPython" scheme="https://tigercosmos.xyz/tags/cpython/"/>
-    
-    <category term="pycon" scheme="https://tigercosmos.xyz/tags/pycon/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>新米工程師進修中（二）： 職場的社會化與生存</title>
-    <link href="https://tigercosmos.xyz/post/2023/11/software-engineer/software-engineer-grow-up-2/"/>
-    <id>https://tigercosmos.xyz/post/2023/11/software-engineer/software-engineer-grow-up-2/</id>
-    <published>2023-11-13T15:00:00.000Z</published>
-    <updated>2025-10-01T10:40:32.924Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;¶ &lt;/a&gt;前言&lt;/h2&gt;
-&lt;p&gt;總算又度過一個半年，在日本待滿一年，第一份正職工作做滿一年，在 Mujin</summary>
-        
-      
-    
-    
-    
-    
-    <category term="工作" scheme="https://tigercosmos.xyz/tags/%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="軟體工程師" scheme="https://tigercosmos.xyz/tags/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB/"/>
-    
-    <category term="software engineer" scheme="https://tigercosmos.xyz/tags/software-engineer/"/>
-    
-    <category term="日本" scheme="https://tigercosmos.xyz/tags/%E6%97%A5%E6%9C%AC/"/>
-    
-    <category term="新米工程師進修中" scheme="https://tigercosmos.xyz/tags/%E6%96%B0%E7%B1%B3%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%B2%E4%BF%AE%E4%B8%AD/"/>
-    
-    <category term="japan" scheme="https://tigercosmos.xyz/tags/japan/"/>
     
   </entry>
   
