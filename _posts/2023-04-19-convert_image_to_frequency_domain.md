@@ -22,7 +22,7 @@ media_subpath: ../../assets/img/posts/convert_image_to_frequency_domain
 本次作業嘗試將影像透過傅立葉轉換將其從色域轉換至頻域，以便進行其他處理。  
 
 本篇難度開始提升，沒有跟上進度的可以參照上一篇： [影像處理小白（二）：影像邊緣偵測](/posts/image-edge-detection/)  
-若好奇其他的作業可以參照 [影像處理分類](/categories/影像處理/)
+若好奇其他的作業可以參照 [影像處理分類](/categories/python-影像處理/)
 
 ## 功課要求
 

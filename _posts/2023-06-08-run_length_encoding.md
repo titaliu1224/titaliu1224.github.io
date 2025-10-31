@@ -22,7 +22,7 @@ media_subpath: ../../assets/img/posts/convert_image_to_frequency_domain
 這次來體驗一下圖片壓縮的原理吧~  
 
 好奇過往進度的可以查看： [影像處理小白（五）：利用 HSV 色域找到膚色區域](/posts/skin_detection/)  
-或是 [影像處理分類](/categories/影像處理/)
+或是 [影像處理分類](/categories/python-影像處理/)
 
 ## 功課要求
 

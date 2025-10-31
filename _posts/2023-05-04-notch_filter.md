@@ -24,7 +24,7 @@ media_subpath: ../../assets/img/posts/convert_image_to_frequency_domain
 這次作業會將影像轉換至頻域，修復一些重複出現的雜訊。  
 
 以下方法會用到頻域轉換，可以參照： [影像處理小白（三）：使用 DFT 將影像轉換至頻域](/posts/convert_image_to_frequency_domain/)  
-若好奇其他的作業可以參照 [影像處理分類](/categories/影像處理/)
+若好奇其他的作業可以參照 [影像處理分類](/categories/python-影像處理/)
 
 ## 功課要求
 

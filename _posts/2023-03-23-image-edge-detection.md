@@ -24,7 +24,7 @@ media_subpath: ../../assets/img/posts/image_crop_and_rotate
 本次作業是將圖片轉換成灰階模式並使用 Sobel operator 繪製一張素描圖。  
 
 入門者可以參照上一篇： [影像處理小白（一）：建立滑桿以旋轉圖片、裁切圖片](/posts/image_crop_and_rotate/)  
-若好奇其他的作業可以參照 [影像處理分類](/categories/影像處理/)
+若好奇其他的作業可以參照 [影像處理分類](/categories/python-影像處理/)
 
 ## 功課要求
 撰寫一個程式，以灰階模式讀取一張圖像  `imread(path, IMREAD_GRAYSCALE)`
