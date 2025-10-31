@@ -14,7 +14,7 @@
 }
 
 // Open Sans
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 /*
 @font-face {
   font-family: 'Open Sans';
@@ -25,7 +25,7 @@
 */
 
 // Noto Sans
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 $font-family-base: 'Open Sans', 'Noto Sans TC', '微軟正黑體', sans-serif;
 $font-family-heading: 'Open Sans', 'Noto Sans TC', '微軟正黑體', sans-serif;
@@ -42,3 +42,5 @@ $font-family-heading: 'Open Sans', 'Noto Sans TC', '微軟正黑體', sans-serif
 
 $font-bold: 'Open Sans', 'TaipeiSans-Bold', sans-serif;
 */
+
+
