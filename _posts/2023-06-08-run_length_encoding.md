@@ -8,6 +8,7 @@ tags:
   - image processing
   - rle
   - compression
+  - homework
 
 categories: [小白學習日誌, Python 影像處理]
 

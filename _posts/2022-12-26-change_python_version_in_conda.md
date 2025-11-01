@@ -8,7 +8,7 @@ tags:
     - virtual environment
     - powershell
 
-categories: [小白學習日誌, Python 學習日誌]
+categories: [工作環境設定]
 
 media_subpath: ../../assets/img/posts/change_python_version_in_conda
 ---

@@ -8,6 +8,7 @@ tags:
   - image processing
   - rotate image
   - trackbar
+  - homework
 
 mermaid: true
 

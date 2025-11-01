@@ -10,6 +10,7 @@ tags:
   - sobel operators
   - gaussian blur
   - noise reduction
+  - homework
 
 mermaid: true
 

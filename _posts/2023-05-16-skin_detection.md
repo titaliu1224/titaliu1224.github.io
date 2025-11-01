@@ -8,6 +8,7 @@ tags:
   - image processing
   - skin detection
   - hsv
+  - homework
 
 categories: [小白學習日誌, Python 影像處理]
 

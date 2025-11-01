@@ -10,6 +10,7 @@ tags:
   - noise reduction
   - frequency domain
   - notch filter
+  - homework
 
 categories: [小白學習日誌, Python 影像處理]
 

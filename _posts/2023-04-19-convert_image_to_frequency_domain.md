@@ -8,6 +8,7 @@ tags:
   - image processing
   - dft
   - frequency domain
+  - homework
 
 categories: [小白學習日誌, Python 影像處理]
 
