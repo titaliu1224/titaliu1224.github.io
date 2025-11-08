@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Neutrino&#39;s Blog</title>
+  <icon>https://tigercosmos.xyz/icon.png</icon>
+  <subtitle>Code makes the world a better place</subtitle>
+  <link href="https://tigercosmos.xyz/atom.xml" rel="self"/>
+  
+  <link href="https://tigercosmos.xyz/"/>
+  <updated>2025-10-23T06:38:24.262Z</updated>
+  <id>https://tigercosmos.xyz/</id>
+  
+  <author>
+    <name>Liu, An-Chi 劉安齊</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2025 秋季日本與台灣中階軟體工程師求職經驗分享</title>
+    <link href="https://tigercosmos.xyz/post/2025/10/japan/find-swe-job-in-japan-2025/"/>
+    <id>https://tigercosmos.xyz/post/2025/10/japan/find-swe-job-in-japan-2025/</id>
+    <published>2025-10-20T17:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.262Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;概要&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#概要&quot;&gt;¶ &lt;/a&gt;概要&lt;/h2&gt;
+&lt;p&gt;今年（2025）二月開始兼職創業，五月底從 Mujin 離職全職搞創業，接著九月中宣告創業失敗，於是開始了 2025</summary>
+        
+      
+    
+    
+    
+    
+    <category term="工作" scheme="https://tigercosmos.xyz/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="軟體工程師" scheme="https://tigercosmos.xyz/tags/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB/"/>
+    
+    <category term="日本" scheme="https://tigercosmos.xyz/tags/%E6%97%A5%E6%9C%AC/"/>
+    
+    <category term="台灣" scheme="https://tigercosmos.xyz/tags/%E5%8F%B0%E7%81%A3/"/>
+    
+    <category term="T2" scheme="https://tigercosmos.xyz/tags/t2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3D Pointcloud Projection on 2D Image in C++</title>
+    <link href="https://tigercosmos.xyz/post/2025/10/cv/3d-pointcloud-project-to-2d-image/"/>
+    <id>https://tigercosmos.xyz/post/2025/10/cv/3d-pointcloud-project-to-2d-image/</id>
+    <published>2025-10-01T12:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.259Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在機器人領域或自駕車領域，為了得知目前場域（scene）裡面的 3D 建模實況，會透過 3D 攝影機或是光達來取得點雲圖（pointcloud），基本上就是一堆 3D 座標的點組成的 3x3 矩陣。透過分析這些 3D</summary>
+        
+      
+    
+    
+    
+    
+    <category term="c++" scheme="https://tigercosmos.xyz/tags/c/"/>
+    
+    <category term="電腦視覺" scheme="https://tigercosmos.xyz/tags/%E9%9B%BB%E8%85%A6%E8%A6%96%E8%A6%BA/"/>
+    
+    <category term="computer vision" scheme="https://tigercosmos.xyz/tags/computer-vision/"/>
+    
+    <category term="opencv" scheme="https://tigercosmos.xyz/tags/opencv/"/>
+    
+    <category term="eigen" scheme="https://tigercosmos.xyz/tags/eigen/"/>
+    
+    <category term="pointcloud" scheme="https://tigercosmos.xyz/tags/pointcloud/"/>
+    
+    <category term="projection" scheme="https://tigercosmos.xyz/tags/projection/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《賈伯斯傳》讀後隨筆</title>
+    <link href="https://tigercosmos.xyz/post/2025/09/book-report/steve-jobs/"/>
+    <id>https://tigercosmos.xyz/post/2025/09/book-report/steve-jobs/</id>
+    <published>2025-09-18T10:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.256Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;賈伯斯是誰應該不用介紹了吧，他是 Apple 創辦人，主導 iMac、iPod、iPhone、iPad</summary>
+        
+      
+    
+    
+    
+    
+    <category term="讀書心得" scheme="https://tigercosmos.xyz/tags/%E8%AE%80%E6%9B%B8%E5%BF%83%E5%BE%97/"/>
+    
+    <category term="賈伯斯" scheme="https://tigercosmos.xyz/tags/%E8%B3%88%E4%BC%AF%E6%96%AF/"/>
+    
+    <category term="賈伯斯傳" scheme="https://tigercosmos.xyz/tags/%E8%B3%88%E4%BC%AF%E6%96%AF%E5%82%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shopify Pricing 踩雷紀錄：Managed Pricing &amp; Manual Pricing 那邊設定？</title>
+    <link href="https://tigercosmos.xyz/post/2025/09/shopify/pricing-method/"/>
+    <id>https://tigercosmos.xyz/post/2025/09/shopify/pricing-method/</id>
+    <published>2025-09-17T10:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.265Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;如果你要幫你的 Shopify App 接上&lt;a href=&quot;https://shopify.dev/docs/apps/launch/billing&quot;&gt;付費機制&lt;/a&gt;，那你就會需要選擇 Managed Pricing 或 Manual Pricing，前者是用</summary>
+        
+      
+    
+    
+    
+    
+    <category term="shopify" scheme="https://tigercosmos.xyz/tags/shopify/"/>
+    
+    <category term="pricing" scheme="https://tigercosmos.xyz/tags/pricing/"/>
+    
+    <category term="billing api" scheme="https://tigercosmos.xyz/tags/billing-api/"/>
+    
+    <category term="managed pricing" scheme="https://tigercosmos.xyz/tags/managed-pricing/"/>
+    
+    <category term="manual pricing" scheme="https://tigercosmos.xyz/tags/manual-pricing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Datra AI 創業紀錄</title>
+    <link href="https://tigercosmos.xyz/post/2025/08/startup/datra-1/"/>
+    <id>https://tigercosmos.xyz/post/2025/08/startup/datra-1/</id>
+    <published>2025-08-30T16:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.266Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;¶</summary>
+        
+      
+    
+    
+    
+    
+    <category term="startup" scheme="https://tigercosmos.xyz/tags/startup/"/>
+    
+    <category term="Datra" scheme="https://tigercosmos.xyz/tags/datra/"/>
+    
+    <category term="DatraAI" scheme="https://tigercosmos.xyz/tags/datraai/"/>
+    
+    <category term="新創公司" scheme="https://tigercosmos.xyz/tags/%E6%96%B0%E5%89%B5%E5%85%AC%E5%8F%B8/"/>
+    
+    <category term="AI新創" scheme="https://tigercosmos.xyz/tags/ai%E6%96%B0%E5%89%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新米工程師進修中（四）：晉升中階工程師，辭職創業（完結篇）</title>
+    <link href="https://tigercosmos.xyz/post/2025/06/software-engineer/software-engineer-grow-up-4/"/>
+    <id>https://tigercosmos.xyz/post/2025/06/software-engineer/software-engineer-grow-up-4/</id>
+    <published>2025-06-25T13:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.266Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;¶ &lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;不知不覺離我進職場也過了快三年，本系列&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="工作" scheme="https://tigercosmos.xyz/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="軟體工程師" scheme="https://tigercosmos.xyz/tags/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB/"/>
+    
+    <category term="software engineer" scheme="https://tigercosmos.xyz/tags/software-engineer/"/>
+    
+    <category term="日本" scheme="https://tigercosmos.xyz/tags/%E6%97%A5%E6%9C%AC/"/>
+    
+    <category term="新米工程師進修中" scheme="https://tigercosmos.xyz/tags/%E6%96%B0%E7%B1%B3%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%B2%E4%BF%AE%E4%B8%AD/"/>
+    
+    <category term="japan" scheme="https://tigercosmos.xyz/tags/japan/"/>
+    
+    <category term="創業" scheme="https://tigercosmos.xyz/tags/%E5%89%B5%E6%A5%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>成為電腦技術書暢銷排行榜第一名有多難？《程式設計原來不只有寫 CODE！》歷時一年的寫書攻略大公開</title>
+    <link href="https://tigercosmos.xyz/post/2025/05/beyond-just-coding-book/writing-experience/"/>
+    <id>https://tigercosmos.xyz/post/2025/05/beyond-just-coding-book/writing-experience/</id>
+    <published>2025-05-02T04:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.256Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;0-緣起&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#0-緣起&quot;&gt;¶ &lt;/a&gt;0. 緣起&lt;/h2&gt;
+&lt;p&gt;2025 年 1 月 3 號，我的新書&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="程式設計原來不只有寫 CODE！" scheme="https://tigercosmos.xyz/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E5%8E%9F%E4%BE%86%E4%B8%8D%E5%8F%AA%E6%9C%89%E5%AF%AB-code%EF%BC%81/"/>
+    
+    <category term="資工基本素養" scheme="https://tigercosmos.xyz/tags/%E8%B3%87%E5%B7%A5%E5%9F%BA%E6%9C%AC%E7%B4%A0%E9%A4%8A/"/>
+    
+    <category term="寫書" scheme="https://tigercosmos.xyz/tags/%E5%AF%AB%E6%9B%B8/"/>
+    
+    <category term="暢銷書" scheme="https://tigercosmos.xyz/tags/%E6%9A%A2%E9%8A%B7%E6%9B%B8/"/>
+    
+    <category term="如何寫書" scheme="https://tigercosmos.xyz/tags/%E5%A6%82%E4%BD%95%E5%AF%AB%E6%9B%B8/"/>
+    
+    <category term="出版書籍" scheme="https://tigercosmos.xyz/tags/%E5%87%BA%E7%89%88%E6%9B%B8%E7%B1%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>圖解刪除二元搜尋樹的節點（LeetCode 450 Delete Node in a BST）</title>
+    <link href="https://tigercosmos.xyz/post/2025/02/algorithm/bts-tree-delete/"/>
+    <id>https://tigercosmos.xyz/post/2025/02/algorithm/bts-tree-delete/</id>
+    <published>2025-02-04T17:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.251Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;題幹&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#題幹&quot;&gt;¶ &lt;/a&gt;題幹&lt;/h2&gt;
+&lt;p&gt;給定一個二元搜尋樹（binary search tree, BST）結構，找到指定數值的節點並刪除。此題可對照 LeetCode 450</summary>
+        
+      
+    
+    
+    
+    
+    <category term="algorithm" scheme="https://tigercosmos.xyz/tags/algorithm/"/>
+    
+    <category term="binary search tree" scheme="https://tigercosmos.xyz/tags/binary-search-tree/"/>
+    
+    <category term="演算法" scheme="https://tigercosmos.xyz/tags/%E6%BC%94%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="二元搜尋樹" scheme="https://tigercosmos.xyz/tags/%E4%BA%8C%E5%85%83%E6%90%9C%E5%B0%8B%E6%A8%B9/"/>
+    
+    <category term="leetcode 450" scheme="https://tigercosmos.xyz/tags/leetcode-450/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 tcpdump 分析網路封包</title>
+    <link href="https://tigercosmos.xyz/post/2025/01/beyond-just-coding-book/tcpdump/"/>
+    <id>https://tigercosmos.xyz/post/2025/01/beyond-just-coding-book/tcpdump/</id>
+    <published>2025-01-02T16:30:00.000Z</published>
+    <updated>2025-10-23T06:38:24.255Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote style=&quot;border: 5px solid #ee9c6b;border-radius:30px;&quot;&gt;
+&lt;p&gt;本文摘自&lt;a href=&quot;/books/beyond-just-coding-book.html&quot;&gt;&lt;strong&gt;《程式設計原來不只有寫</summary>
+        
+      
+    
+    
+    
+    
+    <category term="程式設計原來不只有寫 CODE！" scheme="https://tigercosmos.xyz/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E5%8E%9F%E4%BE%86%E4%B8%8D%E5%8F%AA%E6%9C%89%E5%AF%AB-code%EF%BC%81/"/>
+    
+    <category term="資工基本素養" scheme="https://tigercosmos.xyz/tags/%E8%B3%87%E5%B7%A5%E5%9F%BA%E6%9C%AC%E7%B4%A0%E9%A4%8A/"/>
+    
+    <category term="軟體工程師自我成長" scheme="https://tigercosmos.xyz/tags/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%87%AA%E6%88%91%E6%88%90%E9%95%B7/"/>
+    
+    <category term="tcpdump" scheme="https://tigercosmos.xyz/tags/tcpdump/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《張忠謀自傳：下冊 一九六四──二〇一八》讀後心得</title>
+    <link href="https://tigercosmos.xyz/post/2025/01/book-report/morris-chang-1964-2018/"/>
+    <id>https://tigercosmos.xyz/post/2025/01/book-report/morris-chang-1964-2018/</id>
+    <published>2025-01-01T10:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.256Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;張忠謀自傳下冊紙本書為 622 頁，絕對是一本厚書，但內容十分精彩，讀的過程很過癮。我自己是用電子書看，kobo 機器上看足足有兩千頁，花了我約兩個禮拜才看完。書的後面有附非常多彩圖，翻著一張一張陳年舊照，彷彿跟著張忠謀一起經歷了過往歲月。&lt;/p&gt;
+&lt;img</summary>
+        
+      
+    
+    
+    
+    
+    <category term="張忠謀" scheme="https://tigercosmos.xyz/tags/%E5%BC%B5%E5%BF%A0%E8%AC%80/"/>
+    
+    <category term="張忠謀自傳" scheme="https://tigercosmos.xyz/tags/%E5%BC%B5%E5%BF%A0%E8%AC%80%E8%87%AA%E5%82%B3/"/>
+    
+    <category term="張忠謀自傳下冊" scheme="https://tigercosmos.xyz/tags/%E5%BC%B5%E5%BF%A0%E8%AC%80%E8%87%AA%E5%82%B3%E4%B8%8B%E5%86%8A/"/>
+    
+    <category term="讀書心得" scheme="https://tigercosmos.xyz/tags/%E8%AE%80%E6%9B%B8%E5%BF%83%E5%BE%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>那一個夏天，女孩無法忘卻的軟體實習經歷</title>
+    <link href="https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/newcomer/"/>
+    <id>https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/newcomer/</id>
+    <published>2024-12-27T17:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.255Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote style=&quot;border: 5px solid #ee9c6b;border-radius:30px;&quot;&gt;
+&lt;p&gt;本文改編自&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="書摘" scheme="https://tigercosmos.xyz/tags/%E6%9B%B8%E6%91%98/"/>
+    
+    <category term="程式設計原來不只有寫 CODE！" scheme="https://tigercosmos.xyz/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E5%8E%9F%E4%BE%86%E4%B8%8D%E5%8F%AA%E6%9C%89%E5%AF%AB-code%EF%BC%81/"/>
+    
+    <category term="資工基本素養" scheme="https://tigercosmos.xyz/tags/%E8%B3%87%E5%B7%A5%E5%9F%BA%E6%9C%AC%E7%B4%A0%E9%A4%8A/"/>
+    
+    <category term="軟體工程師自我成長" scheme="https://tigercosmos.xyz/tags/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%87%AA%E6%88%91%E6%88%90%E9%95%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>C++ 雜湊值函式庫 std::hash 介紹</title>
+    <link href="https://tigercosmos.xyz/post/2024/12/c++/hash/"/>
+    <id>https://tigercosmos.xyz/post/2024/12/c++/hash/</id>
+    <published>2024-12-26T17:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.258Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;大家在資料結構與演算法中應該學過雜湊（hash），其最大功用是查表時效率為 $&#92;mathbf{O}(1)$，換句話說就是常數時間的速度，也就是最快的意思。在 C++ 中如果我們想要使用雜湊的資料結構，通常會使用</summary>
+        
+      
+    
+    
+    
+    
+    <category term="c++" scheme="https://tigercosmos.xyz/tags/c/"/>
+    
+    <category term="hash" scheme="https://tigercosmos.xyz/tags/hash/"/>
+    
+    <category term="std::hash" scheme="https://tigercosmos.xyz/tags/std-hash/"/>
+    
+    <category term="std::unordered_map" scheme="https://tigercosmos.xyz/tags/std-unordered-map/"/>
+    
+    <category term="std::unordered_set" scheme="https://tigercosmos.xyz/tags/std-unordered-set/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每個工程師都應該懂的 Vim 基本技巧：《程式設計原來不只有寫 CODE！》之〈Vim〉章節</title>
+    <link href="https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/vim/"/>
+    <id>https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/vim/</id>
+    <published>2024-12-25T17:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.256Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;style&gt;
+    .button-like {
+        border: 1px solid rgb(0, 0, 0);
+        border-radius:5px;
+        font-size: 0.8em;
+        padding: 0</summary>
+        
+      
+    
+    
+    
+    
+    <category term="程式設計原來不只有寫 CODE！" scheme="https://tigercosmos.xyz/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E5%8E%9F%E4%BE%86%E4%B8%8D%E5%8F%AA%E6%9C%89%E5%AF%AB-code%EF%BC%81/"/>
+    
+    <category term="資工基本素養" scheme="https://tigercosmos.xyz/tags/%E8%B3%87%E5%B7%A5%E5%9F%BA%E6%9C%AC%E7%B4%A0%E9%A4%8A/"/>
+    
+    <category term="vim" scheme="https://tigercosmos.xyz/tags/vim/"/>
+    
+    <category term="編輯器" scheme="https://tigercosmos.xyz/tags/%E7%B7%A8%E8%BC%AF%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>每個軟體工程師都該具備的資工基本素養：《程式設計原來不只有寫 CODE！》之〈序〉</title>
+    <link href="https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/preface/"/>
+    <id>https://tigercosmos.xyz/post/2024/12/beyond-just-coding-book/preface/</id>
+    <published>2024-12-24T17:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.255Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote style=&quot;border: 5px solid #ee9c6b;border-radius:30px;&quot;&gt;
+&lt;p&gt;本文摘自&lt;a href=&quot;/books/beyond-just-coding-book.html&quot;&gt;&lt;strong&gt;《程式設計原來不只有寫</summary>
+        
+      
+    
+    
+    
+    
+    <category term="程式設計原來不只有寫 CODE！" scheme="https://tigercosmos.xyz/tags/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88%E5%8E%9F%E4%BE%86%E4%B8%8D%E5%8F%AA%E6%9C%89%E5%AF%AB-code%EF%BC%81/"/>
+    
+    <category term="資工基本素養" scheme="https://tigercosmos.xyz/tags/%E8%B3%87%E5%B7%A5%E5%9F%BA%E6%9C%AC%E7%B4%A0%E9%A4%8A/"/>
+    
+    <category term="軟體工程師自我成長" scheme="https://tigercosmos.xyz/tags/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%87%AA%E6%88%91%E6%88%90%E9%95%B7/"/>
+    
+    <category term="序" scheme="https://tigercosmos.xyz/tags/%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>看完這一篇就夠了，讓你融會貫通使用 C++ 的 std::string 進階篇！</title>
+    <link href="https://tigercosmos.xyz/post/2024/11/c++/std-string-advanced/"/>
+    <id>https://tigercosmos.xyz/post/2024/11/c++/std-string-advanced/</id>
+    <published>2024-11-20T18:01:00.000Z</published>
+    <updated>2025-10-23T06:38:24.259Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;字串作為程式語言最重要的功能之一，本篇文章我們會學習 C++ 中進階的字串技巧，包含 &lt;code&gt;std::string&lt;/code&gt; 的進階 API，介紹如何用 &lt;code&gt;std::stringview&lt;/code&gt; 更有效率操作字串，如何用</summary>
+        
+      
+    
+    
+    
+    
+    <category term="c++" scheme="https://tigercosmos.xyz/tags/c/"/>
+    
+    <category term="string" scheme="https://tigercosmos.xyz/tags/string/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2024 持中國旅行證在中國成都旅行實測</title>
+    <link href="https://tigercosmos.xyz/post/2024/10/travel/china-travel-document-usage/"/>
+    <id>https://tigercosmos.xyz/post/2024/10/travel/china-travel-document-usage/</id>
+    <published>2024-10-18T15:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.268Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;中國旅行證作為一種暫時性證件，可以查到的資料很少，這回我親身實測從東京飛去成都玩了幾天，把過程中遇到使用旅行證的情況都紀錄下來。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;中國旅行證申請可以看這篇：&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="中國旅行證" scheme="https://tigercosmos.xyz/tags/%E4%B8%AD%E5%9C%8B%E6%97%85%E8%A1%8C%E8%AD%89/"/>
+    
+    <category term="中國" scheme="https://tigercosmos.xyz/tags/%E4%B8%AD%E5%9C%8B/"/>
+    
+    <category term="成都" scheme="https://tigercosmos.xyz/tags/%E6%88%90%E9%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新米工程師進修中（三）：飛越性成長，成為開源專案維護者</title>
+    <link href="https://tigercosmos.xyz/post/2024/09/software-engineer/software-engineer-grow-up-3/"/>
+    <id>https://tigercosmos.xyz/post/2024/09/software-engineer/software-engineer-grow-up-3/</id>
+    <published>2024-09-28T20:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.266Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#前言&quot;&gt;¶ &lt;/a&gt;前言&lt;/h2&gt;
+&lt;p&gt;說好的半年一更，一拖就是一年過去了，轉眼進入 Mujin</summary>
+        
+      
+    
+    
+    
+    
+    <category term="工作" scheme="https://tigercosmos.xyz/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+    <category term="開源" scheme="https://tigercosmos.xyz/tags/%E9%96%8B%E6%BA%90/"/>
+    
+    <category term="軟體工程師" scheme="https://tigercosmos.xyz/tags/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB/"/>
+    
+    <category term="software engineer" scheme="https://tigercosmos.xyz/tags/software-engineer/"/>
+    
+    <category term="日本" scheme="https://tigercosmos.xyz/tags/%E6%97%A5%E6%9C%AC/"/>
+    
+    <category term="新米工程師進修中" scheme="https://tigercosmos.xyz/tags/%E6%96%B0%E7%B1%B3%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%80%B2%E4%BF%AE%E4%B8%AD/"/>
+    
+    <category term="japan" scheme="https://tigercosmos.xyz/tags/japan/"/>
+    
+    <category term="開源專案" scheme="https://tigercosmos.xyz/tags/%E9%96%8B%E6%BA%90%E5%B0%88%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在東京申請中國旅行證</title>
+    <link href="https://tigercosmos.xyz/post/2024/09/software-engineer/apply-china-travel-document/"/>
+    <id>https://tigercosmos.xyz/post/2024/09/software-engineer/apply-china-travel-document/</id>
+    <published>2024-09-28T00:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.266Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://github.com/user-attachments/assets/cb01a1e6-5715-4ed6-840e-39a7c23558bf&quot; alt=&quot;cover</summary>
+        
+      
+    
+    
+    
+    
+    <category term="日本" scheme="https://tigercosmos.xyz/tags/%E6%97%A5%E6%9C%AC/"/>
+    
+    <category term="東京、中國、旅行證" scheme="https://tigercosmos.xyz/tags/%E6%9D%B1%E4%BA%AC%E3%80%81%E4%B8%AD%E5%9C%8B%E3%80%81%E6%97%85%E8%A1%8C%E8%AD%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Facebook 帳號被駭一週後取回的心得感想</title>
+    <link href="https://tigercosmos.xyz/post/2024/03/security/facebook-hack/"/>
+    <id>https://tigercosmos.xyz/post/2024/03/security/facebook-hack/</id>
+    <published>2024-03-01T16:03:00.000Z</published>
+    <updated>2025-10-23T06:38:24.265Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;2/25 早上一起床，正要滑 Instagram，發現被強制都出，而且登入不了，明明睡覺前都還好好的，還發了一偏廢文啊，我馬上感覺不妙，打開 Messenger 和</summary>
+        
+      
+    
+    
+    
+    
+    <category term="facebook" scheme="https://tigercosmos.xyz/tags/facebook/"/>
+    
+    <category term="hack" scheme="https://tigercosmos.xyz/tags/hack/"/>
+    
+    <category term="instagram" scheme="https://tigercosmos.xyz/tags/instagram/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三個月日語 N4 自學經驗分享</title>
+    <link href="https://tigercosmos.xyz/post/2023/12/japan/learn-japanese-n4/"/>
+    <id>https://tigercosmos.xyz/post/2023/12/japan/learn-japanese-n4/</id>
+    <published>2023-12-13T15:00:00.000Z</published>
+    <updated>2025-10-23T06:38:24.262Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://github.com/tigercosmos/blog/assets/18013815/bd8fa1da-43d0-4810-98ec-73e974d703f9&quot; alt=&quot;cover image&quot;&gt;&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="日本" scheme="https://tigercosmos.xyz/tags/%E6%97%A5%E6%9C%AC/"/>
+    
+    <category term="日文" scheme="https://tigercosmos.xyz/tags/%E6%97%A5%E6%96%87/"/>
+    
+    <category term="JLPT" scheme="https://tigercosmos.xyz/tags/jlpt/"/>
+    
+    <category term="語言學習" scheme="https://tigercosmos.xyz/tags/%E8%AA%9E%E8%A8%80%E5%AD%B8%E7%BF%92/"/>
+    
+  </entry>
+  
+</feed>
